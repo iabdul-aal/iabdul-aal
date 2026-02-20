@@ -1,24 +1,39 @@
-# Islam I. Abdulaal - CV Repository
+# Islam I. Abdulaal
 
-This repository contains the LaTeX source for my academic CV and related publication metadata.
+Integrated photonics researcher focused on simulation-driven device design, nonlinear quantum photonics, and physics-informed engineering workflows.
 
-## Quick Links
+This repository is my **GitHub profile summary source** and also stores the CV assets used across GitHub and my website.
+
+## Current Focus
+
+- Integrated photonics and photonic-electronic co-design
+- Nonlinear and quantum-compatible photonic structures
+- Physics-informed machine learning for inverse design
+- Reproducible research workflows and public technical communication
+
+## Selected Highlights
+
+- Research Intern, NanoPhoto Lab (IMRE, A*STAR)
+- arXiv preprint: *Terahertz Quasi-BIC Metasurfaces for Ultra-Sensitive Biosensing and High-Speed Wireless Communications*
+- Alexandria University Technology Park (AUTP) research grant (USD 15k)
+- Founded/led student technical initiatives: Si-Cast, Si-Clash, AlexDuino, HW Carnival
+
+## Professional Links
 
 - Website: [iabdul-aal.github.io](https://iabdul-aal.github.io)
-- CV Source: [`temp/main.tex`](temp/main.tex)
-- CV PDF: [`cv.pdf`](cv.pdf)
-- Publications Data: [`temp/publications.bib`](temp/publications.bib)
+- CV (final): [`cv.pdf`](cv.pdf)
+- CV source: [`temp/main.tex`](temp/main.tex)
+- Publications data: [`temp/publications.bib`](temp/publications.bib)
 - ORCID: [0009-0004-9300-3936](https://orcid.org/0009-0004-9300-3936)
 - LinkedIn: [linkedin.com/in/iabdul-aal](https://linkedin.com/in/iabdul-aal)
-- GitHub: [github.com/iabdul-aal](https://github.com/iabdul-aal)
+- Google Scholar: [Profile](https://scholar.google.com/citations?user=CPmqNv4AAAAJ&hl=en)
 
-## Design Direction
+## Technical Stack
 
-The CV template is styled to match the visual language of my website:
-
-- Deep navy: `#010814`
-- Accent gold: `#B48654`
-- Clean section separators and compact research-first layout
+- Photonics: Lumerical (FDTD, MODE, INTERCONNECT), COMSOL
+- Scientific Computing: MATLAB, Python, PyTorch
+- Mixed-Signal / IC: Cadence, LTspice, Verilog-A/AMS, Xschem, NGspice
+- Digital / Hardware: Verilog, VHDL, Vivado, Quartus, FPGA/CPLD workflows
 
 ## Repository Layout
 
@@ -32,17 +47,12 @@ The CV template is styled to match the visual language of my website:
     `-- orcid.png
 ```
 
-## Build Instructions
+## Build CV
 
-From the `temp/` directory:
+From `temp/`:
 
 ```bash
 latexmk -pdf main.tex
 ```
 
-`latexmk` will invoke `biber` automatically when bibliography data changes.
-
-## Notes
-
-- The template is optimized for academic/research applications.
-- Content sections can be reused as modular blocks for targeted CV versions (research, internships, scholarships, etc.).
+`latexmk` invokes `biber` automatically when bibliography metadata changes.

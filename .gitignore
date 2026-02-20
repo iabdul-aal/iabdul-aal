@@ -10,3 +10,4 @@ temp/*.out
 temp/*.run.xml
 temp/*.synctex.gz
 temp/*-SAVE-ERROR
+temp/*.pdf
