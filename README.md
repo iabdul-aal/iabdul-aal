@@ -1,58 +1,21 @@
 # Islam I. Abdulaal
 
-Integrated photonics researcher focused on simulation-driven device design, nonlinear quantum photonics, and physics-informed engineering workflows.
+Postgraduate ECE researcher focused on integrated photonics, nonlinear and quantum photonics, and physics-informed engineering workflows.
 
-This repository is my **GitHub profile summary source** and also stores the CV assets used across GitHub and my website.
+Website: [iabdul-aal.github.io](https://iabdul-aal.github.io) | CV: [cv.pdf](cv.pdf) | ORCID: [0009-0004-9300-3936](https://orcid.org/0009-0004-9300-3936) | Scholar: [Google Scholar](https://scholar.google.com/citations?user=CPmqNv4AAAAJ&hl=en) | LinkedIn: [in/iabdul-aal](https://linkedin.com/in/iabdul-aal) | Email: [iabdul-aal@ieee.org](mailto:iabdul-aal@ieee.org)
 
-## Current Focus
+## Focus Areas
 
 - Integrated photonics and photonic-electronic co-design
-- Nonlinear and quantum-compatible photonic structures
+- Nonlinear and quantum-compatible photonic architectures
 - Physics-informed machine learning for inverse design
-- Reproducible research workflows and public technical communication
+- Reproducible computational research workflows
 
-## Selected Highlights
+## Current Highlights
 
 - Research Intern, NanoPhoto Lab (IMRE, A*STAR)
-- arXiv preprint: *Terahertz Quasi-BIC Metasurfaces for Ultra-Sensitive Biosensing and High-Speed Wireless Communications*
-- Alexandria University Technology Park (AUTP) research grant (USD 15k)
-- Founded/led student technical initiatives: Si-Cast, Si-Clash, AlexDuino, HW Carnival
+- AUTP research grant recipient (USD 15k)
+- Founder/technical lead across student engineering initiatives
+- Public technical writing and talks for early-career engineers
 
-## Professional Links
-
-- Website: [iabdul-aal.github.io](https://iabdul-aal.github.io)
-- CV (final): [`cv.pdf`](cv.pdf)
-- CV source: [`temp/main.tex`](temp/main.tex)
-- Publications data: [`temp/publications.bib`](temp/publications.bib)
-- ORCID: [0009-0004-9300-3936](https://orcid.org/0009-0004-9300-3936)
-- LinkedIn: [linkedin.com/in/iabdul-aal](https://linkedin.com/in/iabdul-aal)
-- Google Scholar: [Profile](https://scholar.google.com/citations?user=CPmqNv4AAAAJ&hl=en)
-
-## Technical Stack
-
-- Photonics: Lumerical (FDTD, MODE, INTERCONNECT), COMSOL
-- Scientific Computing: MATLAB, Python, PyTorch
-- Mixed-Signal / IC: Cadence, LTspice, Verilog-A/AMS, Xschem, NGspice
-- Digital / Hardware: Verilog, VHDL, Vivado, Quartus, FPGA/CPLD workflows
-
-## Repository Layout
-
-```text
-.
-|-- cv.pdf
-|-- README.md
-`-- temp/
-    |-- main.tex
-    |-- publications.bib
-    `-- orcid.png
-```
-
-## Build CV
-
-From `temp/`:
-
-```bash
-latexmk -pdf main.tex
-```
-
-`latexmk` invokes `biber` automatically when bibliography metadata changes.
+Open to research collaboration and invited technical talks.
