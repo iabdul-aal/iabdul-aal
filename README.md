@@ -1,5 +1,6 @@
 <div align="center">
-  <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&duration=3600&pause=900&color=1F6AA5&center=true&vCenter=true&width=760&lines=Islam+I.+Abdulaal;Photonics+Postgraduate+Student;Integrated+%26+Quantum+Photonics;Physics-Informed+Design+Workflows" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&duration=3600&pause=900&color=1F6AA5&center=true&vCenter=true&width=820&lines=Islam+I.+Abdulaal;Photonics+Postgraduate+Student;Integrated+%26+Quantum+Photonics;Physics-Informed+Design+Workflows" alt="Typing SVG" />
+  <p><strong>Simulation-driven photonics research, inverse design workflows, and technical community building.</strong></p>
 </div>
 
 <div align="center">
@@ -13,23 +14,51 @@
 
 ---
 
-## About
+<table>
+  <tr>
+    <td width="58%" valign="top">
 
-I work on simulation-driven integrated photonics research with emphasis on nonlinear and quantum-compatible photonic systems, inverse design, and reproducible computational workflows.
+## Overview
 
-## Research Themes
+I work on integrated photonics with emphasis on nonlinear and quantum-compatible device architectures, physics-informed inverse design, and reproducible computational workflows.
+
+## Current Research Tracks
 
 - Integrated photonics and photonic-electronic co-design
-- Nonlinear and quantum photonic architectures
+- Nonlinear and quantum photonic device concepts
 - Physics-informed machine learning for inverse design
-- Reliable modeling pipelines for research and engineering execution
+- Reliable simulation pipelines for research execution
 
 ## Highlights
 
 - Research Intern, NanoPhoto Lab (IMRE, A*STAR)
 - AUTP research grant recipient (USD 15k)
 - Founder and technical lead across student engineering initiatives
-- Active in public technical writing and student-focused talks
+- Active public technical writing and student-focused talks
+
+    </td>
+    <td width="42%" valign="top">
+
+## At a Glance
+
+- Alexandria, Egypt
+- ECE Postgraduate Path
+- Research + Community Leadership
+
+## Key Links
+
+- Website: [iabdul-aal.github.io](https://iabdul-aal.github.io)
+- CV: [cv.pdf](./cv.pdf)
+- Preprint: [arXiv:2510.00357](https://arxiv.org/abs/2510.00357)
+- Publications metadata: [`temp/publications.bib`](temp/publications.bib)
+
+## Collaboration
+
+Open to research collaborations and invited technical talks in integrated and computational photonics.
+
+   </td>
+  </tr>
+</table>
 
 ## Featured Repositories
 
@@ -64,6 +93,9 @@ I work on simulation-driven integrated photonics research with emphasis on nonli
   <img src="https://img.shields.io/badge/Toolchain-Git%20%7C%20Linux%20%7C%20LaTeX-132235?style=flat-square&logo=git&logoColor=white" alt="Git Linux LaTeX">
 </div>
 
----
+## GitHub Snapshot
 
-Open to research collaborations and invited technical talks in integrated and computational photonics.
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=iabdul-aal&show_icons=true&hide_border=true&theme=transparent&rank_icon=github" alt="GitHub stats" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=iabdul-aal&layout=compact&hide_border=true&theme=transparent" alt="Top languages" />
+</p>
