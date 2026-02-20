@@ -1,0 +1,662 @@
+% Academic CV Template
+% Styled to align with iabdul-aal.github.io visual identity
+\documentclass[11pt,a4paper]{article}
+
+% ================== PACKAGES ==================
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[margin=1.45cm]{geometry}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage{fontawesome5}
+\usepackage{graphicx}
+\usepackage{tabularx}
+\usepackage{array}
+\usepackage{multicol}
+\usepackage{etoolbox}
+\usepackage{ifthen}
+\usepackage{amsmath}
+\usepackage{comment}
+\usepackage[backend=biber,style=ieee,sorting=ydnt,defernumbers=true,maxbibnames=99]{biblatex}
+
+% ================== BIBLIOGRAPHY SETUP ==================
+\addbibresource{publications.bib}
+
+% Bold your name in publications
+\newcommand{\makeauthorbold}[1]{%
+  \DeclareNameFormat{author}{%
+    \ifthenelse{\value{listcount}=1}
+    {%
+      {\expandafter\ifstrequal\expandafter{\namepartfamily}{#1}{\mkbibbold{\namepartfamily\addcomma\addspace \namepartgiveni}}{\namepartfamily\addcomma\addspace \namepartgiveni}}
+    }{\ifnumless{\value{listcount}}{\value{liststop}}
+        {\expandafter\ifstrequal\expandafter{\namepartfamily}{#1}{\mkbibbold{\addcomma\addspace \namepartfamily\addcomma\addspace \namepartgiveni}}{\addcomma\addspace \namepartfamily\addcomma\addspace \namepartgiveni}}
+        {\expandafter\ifstrequal\expandafter{\namepartfamily}{#1}{\mkbibbold{\addcomma\addspace \namepartfamily\addcomma\addspace \namepartgiveni\addcomma\isdot}}{\addcomma\addspace \namepartfamily\addcomma\addspace \namepartgiveni\addcomma\isdot}}%
+      }
+    \ifthenelse{\value{listcount}<\value{liststop}}
+    {\addcomma\space}{}
+  }
+}
+
+\makeauthorbold{Abdulaal}
+
+% ================== COLOR SCHEME ==================
+\definecolor{headercolor}{HTML}{010814}
+\definecolor{sectioncolor}{HTML}{010814}
+\definecolor{linkcolor}{HTML}{B48654}
+\definecolor{mediacolor}{HTML}{B48654}
+\definecolor{bodycolor}{HTML}{1D2430}
+\definecolor{mutedcolor}{HTML}{5D6670}
+\definecolor{linecolor}{HTML}{DCC8AF}
+
+% ================== FORMATTING CONFIGURATION ==================
+\pagestyle{empty}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{2pt}
+\setlist[itemize]{leftmargin=1.2em,topsep=2pt,itemsep=1pt,parsep=0pt}
+\setlist[itemize,2]{leftmargin=1.2em,topsep=1pt,itemsep=0pt,parsep=0pt}
+
+\hypersetup{
+    colorlinks=true,
+    linkcolor=linkcolor,
+    urlcolor=linkcolor,
+    citecolor=linkcolor,
+    pdfborder={0 0 0}
+}
+
+% ================== SECTION FORMATTING ==================
+\titleformat{\section}
+    {\large\bfseries\color{sectioncolor}}
+    {}{0pt}{}[\vspace{2pt}\color{linecolor}\titlerule]
+\titlespacing{\section}{0pt}{11pt}{5pt}
+
+\titleformat{\subsection}
+    {\normalsize\bfseries\color{headercolor}}
+    {}{0pt}{}
+\titlespacing{\subsection}{0pt}{7pt}{3pt}
+
+% ================== CUSTOM COMMANDS ==================
+
+% Education with integrated thesis and media
+\newcommand{\education}[8]{
+    \textbf{#1} \hfill #2 \\
+    \textit{#3} \hfill \textit{#4}
+    \vspace{2pt}
+    \begin{itemize}
+        #5
+    \end{itemize}
+    \ifstrempty{#6}{}{
+        \textcolor{sectioncolor}{\small\textbf{Skills:}} \textcolor{bodycolor}{\small #6} \\
+    }
+    \ifstrempty{#7}{}{
+        \textcolor{mediacolor}{\small\faIcon{link} \textbf{Attachments:} #7}
+    }
+    \ifstrempty{#8}{}{\vspace{#8}}
+}
+
+% Research experience
+\newcommand{\research}[8]{
+    \textbf{#1} \hfill #2 \\
+    \textit{#3} \hfill \textit{#4}
+    \vspace{2pt}
+    \begin{itemize}
+        #5
+    \end{itemize}
+    \ifstrempty{#6}{}{
+        \textcolor{sectioncolor}{\small\textbf{Skills:}} \textcolor{bodycolor}{\small #6} \\
+    }
+    \ifstrempty{#7}{}{
+        \textcolor{mediacolor}{\small\faIcon{link} \textbf{Attachments:} #7}
+    }
+    \ifstrempty{#8}{}{\vspace{#8}}
+}
+
+% Training/internship
+\newcommand{\training}[8]{
+    \textbf{#1} \hfill #2 \\
+    \textit{#3} \hfill \textit{#4}
+    \vspace{2pt}
+    \begin{itemize}
+        #5
+    \end{itemize}
+    \ifstrempty{#6}{}{
+        \textcolor{sectioncolor}{\small\textbf{Skills:}} \textcolor{bodycolor}{\small #6} \\
+    }
+    \ifstrempty{#7}{}{
+        \textcolor{mediacolor}{\small\faIcon{link} \textbf{Attachments:} #7}
+    }
+    \ifstrempty{#8}{}{\vspace{#8}}
+}
+
+% Project
+\newcommand{\project}[7]{
+    \textbf{#1} \\
+    \ifstrempty{#3}{}{\textit{Type:} #3} \hfill #2 
+    \vspace{2pt}
+    \begin{itemize}
+        #4
+    \end{itemize}
+    \ifstrempty{#5}{}{
+        \textcolor{sectioncolor}{\small\textbf{Skills:}} \textcolor{bodycolor}{\small #5} \\
+    }
+    \ifstrempty{#6}{}{
+        \textcolor{mediacolor}{\small\faIcon{link} \textbf{Attachments:} #6}
+    }
+    \ifstrempty{#7}{}{\vspace{#7}}
+}
+
+% Award
+\newcommand{\award}[5]{
+    \textbf{#1} \hfill #2 \\
+    \textit{Issuer:} #3
+    \vspace{2pt}
+    \ifstrempty{#4}{}{
+        \begin{itemize}
+            #4
+        \end{itemize}
+    }
+    \ifstrempty{#5}{}{
+        \textcolor{mediacolor}{\small\faIcon{link} \textbf{Attachments:} #5} \\
+    }
+    \vspace{2pt}
+}
+
+% Leadership
+\newcommand{\leadership}[8]{
+    \textbf{#1} \hfill #2 \\
+    \textit{#3} \hfill \textit{#4}
+    \vspace{2pt}
+    \begin{itemize}
+        #5
+    \end{itemize}
+    \ifstrempty{#6}{}{
+        \textcolor{sectioncolor}{\small\textbf{Skills:}} \textcolor{bodycolor}{\small #6} \\
+    }
+    \ifstrempty{#7}{}{
+        \textcolor{mediacolor}{\small\faIcon{link} \textbf{Attachments:} #7}
+    }
+    \ifstrempty{#8}{}{\vspace{#8}}
+}
+
+% Certification
+\newcommand{\certification}[4]{
+    \textbf{#1} \hfill #2 \\
+    \textit{Issuer:} #3
+    \ifstrempty{#4}{}{
+        \\ \textcolor{mediacolor}{\small\faIcon{certificate} \textbf{Credential:} #4}
+    }
+    \vspace{3pt}
+}
+
+% Simple item
+\newcommand{\cvitem}[2]{
+    \textbf{#1} \hfill #2
+}
+
+% Skill category
+\newcommand{\skillcat}[2]{
+    \textbf{#1:} #2 \\
+}
+
+% Reference
+\newcommand{\reference}[5]{
+    \textbf{#1} \\
+    #2 \\
+    #3 \\
+    \faIcon{envelope} \href{mailto:#4}{#4} \\
+    \faIcon{phone} #5
+}
+
+% ORCID icon
+\newcommand{\orcidicon}{\includegraphics[height=1em]{orcid.png}}
+
+% ================== PERSONAL INFORMATION ==================
+\newcommand{\name}{Islam I. Abdulaal}
+\newcommand{\specialization}{Postgraduate Researcher in Integrated Photonics}
+\newcommand{\currentcity}{Alexandria}
+\newcommand{\currentcountry}{Egypt}
+\newcommand{\phonenumber}{+20-120-460-9271}
+\newcommand{\emailaddress}{iabdul-aal@ieee.org}
+\newcommand{\linkedinhandle}{iabdul-aal}
+\newcommand{\githubhandle}{iabdul-aal}
+\newcommand{\orcidid}{0009-0004-9300-3936}
+\newcommand{\websiteurl}{iabdul-aal.github.io}
+
+% ================== DOCUMENT BEGIN ==================
+\begin{document}
+
+\noindent\raggedright
+\color{bodycolor}
+
+% ================== HEADER ==================
+\begin{center}
+    {\Huge\bfseries\color{headercolor} \name} \\[4pt]
+    {\large\textit{\color{linkcolor}\specialization}}
+    \vspace{7pt}
+    
+    \faIcon{map-marker-alt} \textcolor{mutedcolor}{\currentcity, \currentcountry} \quad
+    \faIcon{phone} \phonenumber \quad
+    \faIcon{envelope} \href{mailto:\emailaddress}{\emailaddress} \\
+    \vspace{3pt}
+    \faIcon{linkedin} \href{https://linkedin.com/in/\linkedinhandle}{in/\linkedinhandle} \quad
+    \faIcon{github} \href{https://github.com/\githubhandle}{@\githubhandle} \quad
+    \orcidicon{} \href{https://orcid.org/\orcidid}{\orcidid} \quad
+    \faIcon{globe} \href{https://\websiteurl}{\websiteurl}
+\end{center}
+
+\vspace{1pt}
+\color{linecolor}\rule{\linewidth}{0.8pt}
+\color{bodycolor}
+\vspace{-7pt}
+
+% ================== RESEARCH INTERESTS ==================
+\section*{Research Interests}
+
+Integrated photonics research interests include nanophotonics, nonlinear optics, and photonic-electronic co-design for all-optical neural networks, programmable photonics, quantum systems, and high-capacity optical communications. Current focus also includes physics-informed machine learning as a digital twin for inverse design, optimization, and device reliability.
+
+% ================== EDUCATION ==================
+\section*{Education}
+
+\education
+    {B.Sc in Electronics and Communications Engineering}
+    {Aug 2021 -- Aug 2026}
+    {Alexandria University, Faculty of Engineering}
+    {Alexandria, Egypt}
+    {
+        \item \textbf{CGPA:} 3.39/4.0 (Distinct with Honors)
+        \item \textbf{Bachelor Thesis:} ``Intra-DC IEEE 802.3 Ethernet MDM-based 400 Gb/s Integrated Si Transceiver''
+        \item \textbf{Thesis Advisor:} Dr. Eslam Elfiky
+        \item \textbf{Thesis Focus:} Modeling and Design of waveguide-based Ge/Si PIN photodetector; collaborated on mode division multiplexing, electro-optic modulator design, and optical digital signal processing
+        \item \textbf{Relevant Coursework:} Electromagnetic Fields, Electromagnetic Waves, Optical Devices, Optical Communications, Digital Signal Processing
+    }
+    {Lumerical, MATLAB, VHDL, LabVIEW, PSpice}
+    {}
+    {0pt}
+
+% ================== RESEARCH EXPERIENCE ==================
+\section*{Research Experience}
+
+\research
+    {Research Intern}
+    {Sep 2025 -- Present}
+    {NanoPhoto Lab, IMRE, A*STAR}
+    {Remote}
+    {
+        \item Extended collaboration from Egypt Scholars program to work with Dr. Abdelraouf at \href{https://www.nanophoto.org}{nanophoto.org}
+        \item Contributing to comprehensive review paper on metamaterial bound states in the continuum (BIC)
+        \item Investigating quantum photonics including applications of 2D MoS$_2$ and Liquid crystals
+        \item Conducting device-level simulations using Lumerical FDTD and post-processing in MATLAB
+    }
+    {Lumerical FDTD, MATLAB, Python, EndNote}
+    {}
+    {4pt}
+
+\research
+    {Research Intern}
+    {Jul 2025 -- Sep 2025}
+    {Advanced Labs Program, Egypt Scholars Inc.}
+    {Remote}
+    {
+        \item Completed intensive 10-week training program focused on developing independent research capabilities
+        \item Collaborated with Dr. Omar Abdelraouf in Group 4 on MPM SPDC inverse design using PINNs
+        \item Generated 12 million training data points for NbOCl$_{2x}$, benchmarking PINN against conventional
+        \item Contributing to technical manuscript and review paper on multiphysics simulations using PINN
+    }
+    {Lumerical FDTD, MATLAB, Python, PyTorch, EndNote}
+    {}
+    {4pt}
+
+\research
+    {Undergraduate Researcher}
+    {Jul 2023 -- Aug 2025}
+    {OPST Group, CSMNP, SmartCI, Alexandria University}
+    {Hybrid}
+    {
+        \item Supervised by Dr. Ishac Kandas and Dr. Eman Elzahaby
+        \item Completed comprehensive 3-month lecture-based training program covering fundamentals of photonics
+        \item Completed following 3-month hands-on training in Lumerical simulation and MATLAB modeling
+        \item Developed FBG for multi-parameter vital monitoring with emphasis on asthma and COPD detection
+        \item Co-authored research proposal securing USD 15k in funding from Alexandria University Technology Park
+        \item Implemented models for fiber core and cladding mode coupling in MATLAB, validated using Lumerical
+        \item Designed low-cost edge-filter detection system using Lumerical INTERCONNECT for sensor
+    }
+    {Lumerical (FDTD, MODE, INTERCONNECT), MATLAB}
+    {}
+    {0pt}
+
+% ================== RESEARCH PROJECTS ==================
+\section*{Research Projects}
+
+\project
+    {Multi-Parameter Vital Monitoring Sensor for Respiratory Disease Detection via FBG}
+    {Aug 2025 -- Ongoing (12 months)}
+    {Funded Research Project}
+    {
+        \item Developing compact photonic sensor system for early detection of asthma and COPD exacerbations
+        \item Used fiber Bragg grating (FBG) technology and edge AI signal processing
+        \item Led conceptualization, theoretical framework development, and implementation methodology design
+        \item Implemented analytical MATLAB models for fiber mode coupling and FBG spectral response
+        \item Validated theoretical approach using Lumerical FDTD and MODE solvers with excellent agreement
+        \item Designed low-cost edge-filter interrogation system using Lumerical INTERCONNECT for monitoring
+        \item Secured USD 15k research grant from AUTP based on feasibility and potential to commercialize IP
+    }
+    {Lumerical (FDTD, MODE, INTERCONNECT), MATLAB, Python}
+    {}
+    {3pt}
+
+\project
+    {Physics-Informed Neural Network Inverse Design for Photonic Quantum Systems}
+    {Jul 2025 -- Ongoing (6 months)}
+    {Collaborative Research Project}
+    {
+        \item Developed PINN-architecture for inverse design on multi-parameter optimization of integrated source
+        \item Developed spontaneous parametric down-conversion (SPDC) source in NbOCl$_{2x}$ nonlinear waveguides
+        \item Generated 12 million training samples through systematic FDTD simulation sweeps of waveguide
+        \item Implemented and benchmarked multiple PINN architectures in PyTorch achieving superior convergence
+        \item Contributing to technical manuscript compared to traditional design methods
+    }
+    {Lumerical FDTD, Python, PyTorch, MATLAB}
+    {}
+    {0pt}
+
+% ================== PUBLICATIONS ==================
+\section*{Publications}
+
+\nocite{*}
+
+\subsection*{Preprints}
+\printbibliography[keyword=preprint,heading=none]
+
+\subsection*{In Preparation}
+\printbibliography[keyword=inprep,heading=none]
+
+% ================== PROFESSIONAL TRAINING ==================
+\section*{Professional Training and Internships}
+
+\training
+    {Analog and Mixed-Signal Simulation \& Modeling Trainee}
+    {Jul 2025 -- Sep 2025}
+    {Siemens EDA -- EMEA}
+    {Hybrid}
+    {
+        \item Completed comprehensive 90+ hours training program in AMS behavioral modeling and verification
+        \item Designed 8$\times$ PLL using behavioral Verilog-A modeling, achieving V$_{\text{ctrl}}$ = 377.6 mV and f$_{\text{out}}$ = 960 MHz
+        \item Achieved 92\% overall grade across simulation modules, concept quizzes, and hands-on laboratories
+        \item Developed proficiency in SPICE simulation (LTspice) and MATLAB for parsing and solving
+    }
+    {LTspice, MATLAB, Mentor Graphics S-Edit, Analog Design Tools (ADT), Verilog-A}
+    {}
+    {4pt}
+
+\training
+    {Analog-to-Digital Converter Design \& Verification Trainee}
+    {Feb 2025}
+    {Siemens EDA -- EMEA}
+    {Remote}
+    {
+        \item Completed intensive 2-week training on ADC architectures, quantization theory, and performance metrics
+        \item Designed and verified 8-bit SAR ADC in both single-ended and fully differential configurations
+        \item Achieved 7.8-bit ENOB, 49.3 dB SNR, -56.3 dB THD, and 60.5 dB SFDR with 256-point FFT analysis
+        \item Scored 101\% overall across evaluation modules demonstrating mastery of ADC design principles
+    }
+    {Xschem, NGspice, Octave}
+    {}
+    {4pt}
+
+\training
+    {CMOS Analog Integrated Circuit Design Trainee}
+    {Jun 2024 -- Sep 2024}
+    {Information Technology Institute (ITI)}
+    {Remote}
+    {
+        \item Completed rigorous 180+ hours program covering CMOS design fundamentals and advanced concepts
+        \item Designed fully differential folded cascode OTA achieving 60 dB DC gain, 80$^{\circ}$ phase margin, 62.9 MHz GBW, 80 ns rise time, and 3k open-loop gain using GF180 PDK
+        \item Designed two-stage Miller-compensated OTA achieving 66.8 dB DC gain, 77.18 dB CMRR, 75.68$^{\circ}$ phase margin, 5.1 MHz GBW, and 52.95 ns rise time using GF180 PDK
+        \item Completed comprehensive design labs including bias circuits, current mirrors, and stability analysis
+        \item Achieved 82\% final grade across design projects, quizzes, and simulation laboratories
+    }
+    {Cadence Virtuoso, Cadence Spectre, Xschem, NGspice, Analog Design Tools (ADT)}
+    {}
+    {0pt}
+
+
+
+% ================== SELECTED TECHNICAL PROJECTS ==================
+\section*{Selected Technical Projects}
+
+\project
+    {Behavioral Phase-Locked Loop Design}
+    {Sep 2025}
+    {Training Project}
+    {
+        \item Designed 8$\times$ frequency multiplication PLL using Verilog-A behavioral modeling 
+        \item Achieved 960 MHz output frequency with 377.6 mV control voltage
+        \item Collaborated in team of 3 to develop transistor-level frequency divider and compare with Verilog-A
+    }
+    {Mentor Graphics S-Edit, Verilog-A}
+    {}
+    {3pt}
+
+\project
+    {Two-Stage Miller Operational Transconductance Amplifier}
+    {Sep 2024}
+    {Training Project}
+    {
+        \item Designed Miller-compensated two-stage OTA achieving 66.8 dB DC gain, 77.18 dB CMRR, 75.68$^{\circ}$ phase margin, 5.1 MHz GBW, 4.35 V/$\mu$s slew rate, and 56.09 $\mu$A current consumption
+        \item Performed design including bias circuit sizing, frequency compensation, and stability analysis
+        \item Validated design through extensive AC, transient, and corner analysis using GF180 180nm  technology
+    }
+    {Cadence Virtuoso, Analog Design Tools (ADT)}
+    {}
+    {3pt}
+
+\project
+    {8$\times$8-Bit Sequential Multiplier with FSM Control}
+    {Aug 2023}
+    {Self-Learning Project}
+    {
+        \item Designed sequential multiplier in Verilog achieving 16-bit product through 4-cycle shift-and-add
+        \item Developed complete system architecture including datapath partitioning and multi-state FSM controller
+        \item Performed modular verification with comprehensive testbenches for all components 
+    }
+    {Verilog, Xilinx Vivado, QuestaSim}
+    {}
+    {0pt}
+
+% ================== TECHNICAL SKILLS ==================
+\section*{Technical Skills and Competencies}
+
+\subsection*{Photonic Simulation and Design}
+\skillcat{FDTD/FEM Solvers}{Lumerical, COMSOL}
+\skillcat{Semiconductor Modeling}{Silvaco TCAD}
+\skillcat{General Modeling}{MATLAB}
+
+\subsection*{Programming and Computational Methods}
+\skillcat{Scientific Computing}{Python, Octave}
+\skillcat{Machine Learning}{PyTorch, TensorFlow}
+\skillcat{General Programming}{C/C++, Assembly, Bash}
+\skillcat{Development Tools}{Git, Linux, LaTeX, Jupyter}
+
+\subsection*{Electronic Simulation and Design}
+\skillcat{Analog IC Design}{Cadence, Mentor, Xschem, ADT}
+\skillcat{Mixed-Signal Design}{Verilog-A/AMS, SPICE}
+\skillcat{Digital Design}{Verilog, VHDL, Vivado, Quartus, QuestaSim}
+\skillcat{System Simulation}{Simulink, LabVIEW}
+
+\subsection*{Hardware Development}
+\skillcat{Embedded Systems}{Altium, Proteus, Arduino, ESP32, ATmega, FPGA/CPLD}
+\skillcat{Laboratory Equipment}{Network analyzer, oscilloscope, photometer, spectroscopy}
+
+\subsection*{Professional Certifications}
+
+\certification
+    {Machine Learning Specialization}
+    {Dec 2024}
+    {DeepLearning.AI via Coursera}
+    {}
+
+\subsection*{Languages}
+\skillcat{Arabic}{Native proficiency}
+\skillcat{English}{Professional working proficiency (Fluent)}
+
+
+% ================== HONORS & AWARDS ==================
+\section*{Honors, Awards, and Research Funding}
+
+\subsection*{Research Funding}
+
+\award
+    {Alexandria University Technology Park (AUTP) Research Grant}
+    {2025}
+    {Alexandria University}
+    {
+        \item Awarded USD 15k for multi-parameter vital monitoring sensor for asthma and COPD detection
+        \item Selected based on technical feasibility, market potential, and innovation
+        \item Project focused on translating FBG sensing technology to clinical applications
+    }
+    {}
+
+\subsection*{Academic Honors}
+
+\award
+    {Distinction Grade - Dean's Honors for Academic Excellence}
+    {2021 -- 2025}
+    {Alexandria University, Faculty of Engineering}
+    {
+        \item Maintained distinction grade status throughout undergraduate studies
+        \item Recognized annually for academic excellence, qualifies for honors designation at graduation
+        \item Earned GSEC top achiever scholarship through the Ministry of Higher Education
+    }
+    {}
+
+\subsection*{Competition Awards}
+
+\award
+    {ICMTC Artificial Intelligence Contest (AIC-2) -- 4th Place}
+    {2024}
+    {Military Technical College}
+    {
+        \item Achieved 4th place among 500 competing teams in national AI competition
+        \item Developed SphinxSpeech Egyptian dialect ASR system using NVIDIA NeMo framework
+        \item Integrated PyAnnote diarization with agglomerative clustering and embedding-based identification
+    }
+    {}
+
+\award
+    {Huawei ICT Skills Competition -- National Finalist (AI Track)}
+    {2023}
+    {Huawei Technologies -- MENA}
+    {
+        \item Qualified among top national individuals representing Egypt in artificial intelligence track
+        \item Demonstrated technical proficiency through HCIA certification examination
+    }
+    {}
+
+\award
+    {NASA Space Apps Challenge -- Global Nominee}
+    {2021}
+    {National Aeronautics and Space Administration (NASA)}
+    {
+        \item Selected as global nominee for project submission in international hackathon
+        \item Developed Unity-based C\# educational video game for lunar mission awareness and space exploration
+    }
+    {}
+
+\award
+    {International Youth Math Challenge (IYMC) -- Finalist}
+    {2021}
+    {IYMC Foundation}
+    {
+        \item Selected as finalist in international mathematics competition
+        \item Solved advanced mathematical problems with rigorous step-by-step proofs
+    }
+    {}
+
+
+% ================== LEADERSHIP & SERVICE ==================
+\section*{Leadership Experience and Academic Service}
+
+\leadership
+    {Chairman}
+    {Feb 2025 -- Oct 2025}
+    {IEEE SSCS Alexandria University Student Branch Chapter}
+    {Hybrid}
+    {
+        \item Led chapter restructuring effort establishing clear program portfolio and governance bylaws
+        \item Established 50+ partnerships with IEEE branches, government entities, and semiconductor companies
+        \item Developed and launched 4 major programs (Si-Cast, Si-Clash, AlexDuino, SPARK Meetup)
+        \item Managed 200+ volunteers serving 500+ students across 30 universities and 5 pre-university schools
+        \item Organized 80+ technical events featuring 35+ industry and academic experts from semiconductor fields
+    }
+    {Leadership, Management, Communications}
+    {}
+    {4pt}
+
+\leadership
+    {General Coordinator}
+    {Aug 2021 -- Sep 2023}
+    {Education Clinic (USA-Registered NGO)}
+    {Remote}
+    {
+        \item Led volunteer organization of 80+ members serving 250,000+ students across MENA region
+        \item Developed and launched 3 major programs spanning academic support and technical skill development
+        \item Organized webinars featuring faculty from top-100 universities including Nobel and Fields recipients
+    }
+    {Leadership, Management, Communications}
+    {}
+    {0pt}
+
+% ================== TEACHING & MENTORING ==================
+\section*{Teaching and Mentoring Experience}
+
+\cvitem{Peer Tutor/Mentor}{2025 -- Present}
+\begin{itemize}
+    \item Optical subteam lead/technical committee co-head for IEEE SSCS season 2026
+    \item Responsible for intensive training for students on photonics with concentration on computational aspects
+    \item Developed curriculum covering fundamental concepts and practical applications in integrated photonics
+\end{itemize}
+
+% ================== PROFESSIONAL MEMBERSHIPS ==================
+\section*{Professional Memberships}
+
+\begin{itemize}
+    \item \textbf{Institute of Electrical and Electronics Engineers (IEEE)} \hfill 2025 -- Present \\
+    \textcolor{mediacolor}{\small Student Member, Member ID: 101099759}
+    \begin{itemize}
+        \item \textbf{IEEE Solid-State Circuits Society (SSCS)} \hfill 2025 -- Present
+        \item \textbf{IEEE Photonics Society} \hfill 2025 -- Present
+    \end{itemize}
+\end{itemize}
+
+% ================== REFERENCES ==================
+\section*{References}
+\begin{multicols}{2}
+
+\reference
+    {Dr. Ishac Kandas}
+    {Professor}
+    {Department of EPM\\Alexandria University}
+    {ishac.kandas@alexu.edu.eg}
+    {+20-127-755-2785}
+
+\columnbreak
+\reference
+    {Dr. Omar Abdelraouf}
+    {Research Scientist}
+    {Institute of Materials Research and Engineering (IMRE)\\A*STAR}
+    {omar\_abdelrahman@a-star.edu.sg}
+    {+65-8349-0207}
+
+\end{multicols}
+
+\vspace{6pt}
+{\small\textit{Additional letters of recommendation available upon request from research supervisors and academic advisors.}}
+
+% ================== FOOTER ==================
+\vfill
+\begin{center}
+    {\small Last updated: \today}
+\end{center}
+
+\end{document}
