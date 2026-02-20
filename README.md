@@ -5,20 +5,22 @@
 
 <div align="center">
 
-[![Website](https://img.shields.io/badge/Website-iabdul--aal.github.io-0B1220?style=for-the-badge&logo=googlechrome&logoColor=white)](https://iabdul-aal.github.io)
-[![CV](https://img.shields.io/badge/CV-Professional-2563EB?style=for-the-badge&logo=adobeacrobatreader&logoColor=white)](./cv.pdf)
-[![Email](https://img.shields.io/badge/Email-iabdul--aal%40ieee.org-0B1220?style=for-the-badge&logo=gmail&logoColor=white)](mailto:iabdul-aal@ieee.org)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-iabdul--aal-2563EB?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/iabdul-aal)
-[![GitHub](https://img.shields.io/badge/GitHub-iabdul--aal-0B1220?style=for-the-badge&logo=github&logoColor=white)](https://github.com/iabdul-aal)
-[![ORCID](https://img.shields.io/badge/ORCID-0009--0004--9300--3936-2563EB?style=for-the-badge&logo=orcid&logoColor=white)](https://orcid.org/0009-0004-9300-3936)
-[![Scholar](https://img.shields.io/badge/Scholar-Google-0B1220?style=for-the-badge&logo=googlescholar&logoColor=white)](https://scholar.google.com/citations?user=CPmqNv4AAAAJ&hl=en)
-[![arXiv](https://img.shields.io/badge/arXiv-2510.00357-2563EB?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2510.00357)
+[![Website](https://img.shields.io/badge/Website-iabdul--aal.github.io-2563EB?style=for-the-badge&labelColor=0B1220&logo=googlechrome&logoColor=white)](https://iabdul-aal.github.io)
+[![CV](https://img.shields.io/badge/CV-Professional-2563EB?style=for-the-badge&labelColor=0B1220&logo=adobeacrobatreader&logoColor=white)](./cv.pdf)
+[![Email](https://img.shields.io/badge/Email-iabdul--aal%40ieee.org-2563EB?style=for-the-badge&labelColor=0B1220&logo=gmail&logoColor=white)](mailto:iabdul-aal@ieee.org)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-iabdul--aal-2563EB?style=for-the-badge&labelColor=0B1220&logo=linkedin&logoColor=white)](https://linkedin.com/in/iabdul-aal)
+[![GitHub](https://img.shields.io/badge/GitHub-iabdul--aal-2563EB?style=for-the-badge&labelColor=0B1220&logo=github&logoColor=white)](https://github.com/iabdul-aal)
+[![ORCID](https://img.shields.io/badge/ORCID-0009--0004--9300--3936-2563EB?style=for-the-badge&labelColor=0B1220&logo=orcid&logoColor=white)](https://orcid.org/0009-0004-9300-3936)
+[![Scholar](https://img.shields.io/badge/Scholar-Google-2563EB?style=for-the-badge&labelColor=0B1220&logo=googlescholar&logoColor=white)](https://scholar.google.com/citations?user=CPmqNv4AAAAJ&hl=en)
+[![arXiv](https://img.shields.io/badge/arXiv-2510.00357-2563EB?style=for-the-badge&labelColor=0B1220&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2510.00357)
 
 </div>
 
 ## About
 
-This repository is the source of my GitHub profile summary and CV assets used across GitHub and my website.
+I am a research-focused ECE postgraduate student working at the intersection of integrated photonics, nonlinear quantum photonics, and physics-informed design.
+
+This repository is the source for my GitHub profile summary and CV assets, aligned with my website and public research identity.
 
 ## Current Focus
 
@@ -60,7 +62,9 @@ Reusable photonics design toolkit for project setup, documentation standards, an
 ## GitHub Stats
 
 <div align="center">
-  <img src="https://streak-stats.demolab.com?user=iabdul-aal&theme=github-dark-blue&hide_border=true" alt="GitHub Streak" />
+  <a href="https://github.com/iabdul-aal?tab=followers"><img src="https://img.shields.io/github/followers/iabdul-aal?style=flat-square&color=2563EB" alt="GitHub followers" /></a>
+  <a href="https://github.com/iabdul-aal?tab=repositories"><img src="https://img.shields.io/badge/Public%20Repos-26-0B1220?style=flat-square" alt="Public repositories" /></a>
+  <a href="https://github.com/iabdul-aal/PD-design-kit"><img src="https://img.shields.io/github/stars/iabdul-aal/PD-design-kit?style=flat-square&color=2563EB&label=PD-design-kit%20stars" alt="PD-design-kit stars" /></a>
 </div>
 
 ## Collaboration
