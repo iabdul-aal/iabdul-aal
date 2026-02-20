@@ -14,11 +14,7 @@
 
 ---
 
-<table>
-  <tr>
-    <td width="58%" valign="top">
-
-## Overview
+## About
 
 I work on integrated photonics with emphasis on nonlinear and quantum-compatible device architectures, physics-informed inverse design, and reproducible computational workflows.
 
@@ -36,15 +32,6 @@ I work on integrated photonics with emphasis on nonlinear and quantum-compatible
 - Founder and technical lead across student engineering initiatives
 - Active public technical writing and student-focused talks
 
-    </td>
-    <td width="42%" valign="top">
-
-## At a Glance
-
-- Alexandria, Egypt
-- ECE Postgraduate Path
-- Research + Community Leadership
-
 ## Key Links
 
 - Website: [iabdul-aal.github.io](https://iabdul-aal.github.io)
@@ -52,13 +39,7 @@ I work on integrated photonics with emphasis on nonlinear and quantum-compatible
 - Preprint: [arXiv:2510.00357](https://arxiv.org/abs/2510.00357)
 - Publications metadata: [`temp/publications.bib`](temp/publications.bib)
 
-## Collaboration
-
 Open to research collaborations and invited technical talks in integrated and computational photonics.
-
-   </td>
-  </tr>
-</table>
 
 ## Featured Repositories
 
