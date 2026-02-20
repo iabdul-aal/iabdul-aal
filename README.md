@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&duration=3600&pause=900&color=1F6AA5&center=true&vCenter=true&width=820&lines=Islam+I.+Abdulaal;Photonics+Postgraduate+Student;Integrated+%26+Quantum+Photonics;Physics-Informed+Design+Workflows" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&duration=3600&pause=900&color=1F6AA5&center=true&vCenter=true&width=860&lines=Islam+I.+Abdulaal;Photonics+Postgraduate+Student;Integrated+Quantum+Photonics;Physics-Informed+Design+Workflows" alt="Typing SVG" />
   <p><strong>Simulation-driven photonics research, inverse design workflows, and technical community building.</strong></p>
 </div>
 
@@ -16,14 +16,13 @@
 
 ## About
 
-I work on integrated photonics with emphasis on nonlinear and quantum-compatible device architectures, physics-informed inverse design, and reproducible computational workflows.
+I work on integrated photonics and research-focused engineering workflows. This profile mirrors my website and summarizes current work, public outputs, and collaboration options.
 
-## Current Research Tracks
+## Current Focus
 
-- Integrated photonics and photonic-electronic co-design
-- Nonlinear and quantum photonic device concepts
-- Physics-informed machine learning for inverse design
-- Reliable simulation pipelines for research execution
+- **Integrated Photonics:** Silicon photonics, waveguide engineering, and mode-division multiplexing systems.
+- **Nonlinear Quantum Photonics:** SPDC-oriented architectures, quasi-BIC concepts, and quantum-compatible device design.
+- **Physics-Informed Design:** PINN-assisted inverse design and multiphysics optimization for photonic components.
 
 ## Highlights
 
