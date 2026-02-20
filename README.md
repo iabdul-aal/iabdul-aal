@@ -1,52 +1,59 @@
 ﻿<div align="center">
-  <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&duration=3600&pause=900&color=00BFFF&width=760&lines=Islam+I.+Abdulaal;Photonics+Postgraduate+Student;Integrated+Photonics+Research;Nonlinear+Quantum+Photonics;Physics-Informed+Design" alt="Typing SVG" />
-  <p><strong>Simulation-driven integrated photonics research, nonlinear/quantum-compatible device design, and physics-informed engineering workflows.</strong></p>
+  <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&duration=3800&pause=900&color=00BFFF&width=820&lines=Hey+there%2C+I%27m+Islam+I.+Abdulaal!;Photonics+Postgraduate+Student;Integrated+Photonics+Research;Nonlinear+Quantum+Photonics;Physics-Informed+Design&center=true" alt="Typing SVG" />
 </div>
 
-<p align="center">
-  <a href="https://iabdul-aal.github.io"><img src="https://img.shields.io/badge/Website-iabdul--aal.github.io-2563EB?style=flat-square&logo=googlechrome&logoColor=white" alt="Website" /></a>
-  <a href="./cv.pdf"><img src="https://img.shields.io/badge/CV-cv.pdf-0B1220?style=flat-square&logo=adobeacrobatreader&logoColor=white" alt="CV" /></a>
-  <a href="mailto:iabdul-aal@ieee.org"><img src="https://img.shields.io/badge/Email-iabdul--aal%40ieee.org-2563EB?style=flat-square&logo=gmail&logoColor=white" alt="Email" /></a>
-  <a href="https://linkedin.com/in/iabdul-aal"><img src="https://img.shields.io/badge/LinkedIn-iabdul--aal-0B1220?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-</p>
-<p align="center">
-  <a href="https://github.com/iabdul-aal"><img src="https://img.shields.io/badge/GitHub-iabdul--aal-2563EB?style=flat-square&logo=github&logoColor=white" alt="GitHub" /></a>
-  <a href="https://orcid.org/0009-0004-9300-3936"><img src="https://img.shields.io/badge/ORCID-0009--0004--9300--3936-0B1220?style=flat-square&logo=orcid&logoColor=white" alt="ORCID" /></a>
-  <a href="https://scholar.google.com/citations?user=CPmqNv4AAAAJ&hl=en"><img src="https://img.shields.io/badge/Scholar-Google%20Scholar-2563EB?style=flat-square&logo=googlescholar&logoColor=white" alt="Google Scholar" /></a>
-  <a href="https://arxiv.org/abs/2510.00357"><img src="https://img.shields.io/badge/arXiv-2510.00357-0B1220?style=flat-square&logo=arxiv&logoColor=white" alt="arXiv" /></a>
-</p>
+<div align="center">
 
-## About
+[![Website](https://img.shields.io/badge/Website-iabdul--aal.github.io-0B1220?style=for-the-badge&logo=googlechrome&logoColor=white)](https://iabdul-aal.github.io)
+[![CV](https://img.shields.io/badge/CV-cv.pdf-2563EB?style=for-the-badge&logo=adobeacrobatreader&logoColor=white)](./cv.pdf)
+[![Email](https://img.shields.io/badge/Email-iabdul--aal%40ieee.org-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:iabdul-aal@ieee.org)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-iabdul--aal-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/iabdul-aal)
+[![ORCID](https://img.shields.io/badge/ORCID-0009--0004--9300--3936-A6CE39?style=for-the-badge&logo=orcid&logoColor=white)](https://orcid.org/0009-0004-9300-3936)
+[![Scholar](https://img.shields.io/badge/Scholar-Google-4285F4?style=for-the-badge&logo=googlescholar&logoColor=white)](https://scholar.google.com/citations?user=CPmqNv4AAAAJ&hl=en)
 
-I am a research-focused ECE postgraduate student working at the intersection of integrated photonics, nonlinear quantum photonics, and physics-informed design.
+</div>
 
-This repository is the source for my GitHub profile summary and CV assets used across GitHub and my website.
+## About Me
 
-## Current Focus
+**Photonics postgraduate student** focused on **integrated photonics**, **nonlinear/quantum photonic structures**, and **physics-informed inverse design**.
 
-- Integrated photonics: silicon photonics, waveguide engineering, and mode-division multiplexing systems.
-- Nonlinear quantum photonics: SPDC-oriented architectures, quasi-BIC concepts, and quantum-compatible device design.
-- Physics-informed design: PINN-assisted inverse design and multiphysics optimization for photonic components.
+This repository is my GitHub profile summary source and stores the CV assets used across GitHub and my website.
+
+## Tech Stack
+
+### Photonics & Simulation
+![Lumerical](https://img.shields.io/badge/Lumerical-FDTD%20%7C%20MODE%20%7C%20INTERCONNECT-0078D4?style=for-the-badge)
+![COMSOL](https://img.shields.io/badge/COMSOL-Multiphysics-1F2937?style=for-the-badge)
+![Silvaco](https://img.shields.io/badge/Silvaco-TCAD-00599C?style=for-the-badge)
+![MATLAB](https://img.shields.io/badge/MATLAB-Scientific%20Computing-D14836?style=for-the-badge&logo=Mathworks&logoColor=white)
+
+### Scientific & ML
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=ffdd54)
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
+![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
+
+### Circuit & Mixed-Signal
+![Cadence](https://img.shields.io/badge/Cadence-Analog%20IC-6B7280?style=for-the-badge)
+![Verilog-A/AMS](https://img.shields.io/badge/Verilog--A%2FAMS-Mixed%20Signal-0F172A?style=for-the-badge)
+
+### Workflow
+![Git](https://img.shields.io/badge/Git-F05033?style=for-the-badge&logo=git&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+![LaTeX](https://img.shields.io/badge/LaTeX-008080?style=for-the-badge&logo=latex&logoColor=white)
+
+## GitHub Stats
+
+<div align="center">
+  <img src="https://streak-stats.demolab.com?user=iabdul-aal&theme=github-dark-blue&hide_border=false" alt="Streak Stats" />
+  <br/>
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=iabdul-aal&theme=github_dark" alt="Top Languages" />
+</div>
 
 ## Featured Work
 
-- **NanoPhotoNet-MPM**: Photonics modeling and inverse-design workflow for nonlinear and quantum-compatible integrated structures. *(Public repository release in progress.)*
-- **[PD-design-kit](https://github.com/iabdul-aal/PD-design-kit)**: Reusable photonics design toolkit for project setup, documentation standards, and reproducible engineering iteration.
-
-## Technical Toolbox
-
-- **Photonics and Simulation:** Lumerical (FDTD, MODE, INTERCONNECT), COMSOL, Silvaco TCAD
-- **Scientific and ML Stack:** MATLAB, Python, PyTorch, TensorFlow
-- **Circuit and Mixed-Signal:** Cadence, Verilog-A/AMS
-- **Workflow Tooling:** Git, Linux, LaTeX
-
-## GitHub Snapshot
-
-<p align="center">
-  <a href="https://github.com/iabdul-aal"><img src="https://img.shields.io/github/followers/iabdul-aal?style=flat-square&color=2563EB" alt="GitHub followers" /></a>
-  <a href="https://github.com/iabdul-aal?tab=repositories"><img src="https://img.shields.io/badge/Public%20Repos-26-0B1220?style=flat-square" alt="Public repositories" /></a>
-  <a href="https://github.com/iabdul-aal/PD-design-kit"><img src="https://img.shields.io/github/stars/iabdul-aal/PD-design-kit?style=flat-square&color=2563EB&label=PD-design-kit%20stars" alt="PD-design-kit stars" /></a>
-</p>
+- **NanoPhotoNet-MPM**: Photonics modeling and inverse-design workflow *(public release in progress)*.
+- [**PD-design-kit**](https://github.com/iabdul-aal/PD-design-kit): Reusable photonics project structure and documentation workflow.
 
 ## Collaboration
 
