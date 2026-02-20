@@ -1,5 +1,5 @@
 % Professional CV - Islam I. Abdulaal
-% Profile-aligned version for GitHub and website usage
+% Clean, research-first structure for website and GitHub use
 \documentclass[10pt,a4paper]{article}
 
 % ================== PACKAGES ==================
@@ -12,7 +12,7 @@
 \usepackage{xcolor}
 \usepackage{fontawesome5}
 \usepackage{graphicx}
-\usepackage{multicol}
+\usepackage{tabularx}
 \usepackage{etoolbox}
 \usepackage{ifthen}
 \usepackage{amsmath}
@@ -34,7 +34,6 @@
     {\addcomma\space}{}
   }
 }
-
 \makeauthorbold{Abdulaal}
 
 % ================== STYLE ==================
@@ -49,6 +48,7 @@
 \setlength{\parindent}{0pt}
 \setlength{\parskip}{2pt}
 \setlist[itemize]{leftmargin=1.2em,topsep=2pt,itemsep=1pt,parsep=0pt}
+\renewcommand{\labelitemi}{\textcolor{linkcolor}{\small\textbullet}}
 
 \hypersetup{
     colorlinks=true,
@@ -61,7 +61,7 @@
 \titleformat{\section}
     {\large\bfseries\color{sectioncolor}}
     {}{0pt}{}[\vspace{2pt}\color{linecolor}\titlerule]
-\titlespacing{\section}{0pt}{10pt}{5pt}
+\titlespacing{\section}{0pt}{10pt}{4pt}
 
 \titleformat{\subsection}
     {\normalsize\bfseries\color{sectioncolor}}
@@ -69,20 +69,20 @@
 \titlespacing{\subsection}{0pt}{6pt}{2pt}
 
 % ================== HELPERS ==================
-\newcommand{\cventry}[4]{%
-    \textbf{#1} \hfill #2 \\
-    \textit{#3} \hfill \textit{#4}
+\newcommand{\entry}[4]{%
+\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}p{0.72\textwidth}r}
+\textbf{#1} & \textcolor{mutedcolor}{#2} \\
+\textit{#3} & \textit{#4}
+\end{tabular*}
 }
 
-\newcommand{\skillline}[2]{\textbf{#1:} #2 \\}
-
+\newcommand{\skill}[2]{\textbf{#1:} #2\\}
 \newcommand{\orcidicon}{\includegraphics[height=1em]{orcid.png}}
 
 % ================== PERSONAL INFO ==================
 \newcommand{\name}{Islam I. Abdulaal}
 \newcommand{\headline}{Postgraduate Student and Researcher in Integrated Photonics}
-\newcommand{\city}{Alexandria}
-\newcommand{\country}{Egypt}
+\newcommand{\city}{Alexandria, Egypt}
 \newcommand{\phone}{+20-120-460-9271}
 \newcommand{\email}{iabdul-aal@ieee.org}
 \newcommand{\linkedin}{iabdul-aal}
@@ -94,11 +94,10 @@
 \begin{document}
 \color{bodycolor}
 
-% Header
 \begin{center}
-    {\Huge\bfseries\color{headercolor} \name} \\[4pt]
+    {\Huge\bfseries\color{headercolor} \name} \\[3pt]
     {\large\textit{\color{linkcolor}\headline}} \\[6pt]
-    \faIcon{map-marker-alt} \textcolor{mutedcolor}{\city, \country} \quad
+    \faIcon{map-marker-alt} \textcolor{mutedcolor}{\city} \quad
     \faIcon{phone} \phone \quad
     \faIcon{envelope} \href{mailto:\email}{\email} \\
     \vspace{2pt}
@@ -111,16 +110,16 @@
 \vspace{1pt}
 \color{linecolor}\rule{\linewidth}{0.8pt}
 \color{bodycolor}
-\vspace{-7pt}
+\vspace{-6pt}
 
 \section*{Professional Summary}
-Research-oriented ECE postgraduate student specializing in integrated photonics, nonlinear optics, and physics-informed design workflows. Experience includes simulation-intensive photonic device development, machine-learning-assisted inverse design, and research communication through publications, technical programs, and mentoring.
+Research-focused ECE postgraduate student specializing in integrated photonics, nonlinear optics, and physics-informed design workflows. Work centers on simulation-driven photonic device development, inverse design with machine learning, and research communication through publications, mentoring, and technical programs.
 
 \section*{Research Interests}
 Integrated photonics; nonlinear and quantum photonics; photonic-electronic co-design; physics-informed machine learning for inverse design; optical communications; biomedical photonic sensing.
 
 \section*{Education}
-\cventry{B.Sc. in Electronics and Communications Engineering}{Aug 2021 -- Aug 2026}{Alexandria University, Faculty of Engineering}{Alexandria, Egypt}
+\entry{B.Sc. in Electronics and Communications Engineering}{Aug 2021 -- Aug 2026}{Alexandria University, Faculty of Engineering}{Alexandria, Egypt}
 \begin{itemize}
     \item \textbf{CGPA:} 3.39/4.00 (Distinct with Honors).
     \item \textbf{Thesis:} Intra-DC IEEE 802.3 Ethernet MDM-based 400 Gb/s integrated silicon transceiver.
@@ -129,43 +128,39 @@ Integrated photonics; nonlinear and quantum photonics; photonic-electronic co-de
 \end{itemize}
 
 \section*{Research Experience}
-\cventry{Research Intern}{Sep 2025 -- Present}{NanoPhoto Lab, IMRE, A*STAR}{Remote}
+\entry{Research Intern}{Sep 2025 -- Present}{NanoPhoto Lab, IMRE, A*STAR}{Remote}
 \begin{itemize}
     \item Continued collaboration with Dr. Omar Abdelraouf after Egypt Scholars Advanced Labs track.
     \item Contributing to a review on metamaterial bound states in the continuum (BIC).
-    \item Investigating quantum photonics concepts involving 2D materials and liquid crystals.
-    \item Running device-level simulations in Lumerical FDTD with MATLAB-based post-processing.
+    \item Running device-level simulation workflows in Lumerical FDTD with MATLAB post-processing.
 \end{itemize}
 
-\cventry{Research Intern}{Jul 2025 -- Sep 2025}{Advanced Labs Program, Egypt Scholars Inc.}{Remote}
+\entry{Research Intern}{Jul 2025 -- Sep 2025}{Advanced Labs Program, Egypt Scholars Inc.}{Remote}
 \begin{itemize}
     \item Completed an intensive 10-week program on independent research execution.
     \item Collaborated on MPM SPDC inverse design using physics-informed neural networks (PINNs).
     \item Generated and validated approximately 12 million simulation samples for NbOCl$_{2x}$ design studies.
-    \item Contributed to manuscript preparation for multiphysics PINN workflows.
 \end{itemize}
 
-\cventry{Undergraduate Researcher}{Jul 2023 -- Aug 2025}{OPST Group, CSMNP, SmartCI, Alexandria University}{Hybrid}
+\entry{Undergraduate Researcher}{Jul 2023 -- Aug 2025}{OPST Group, CSMNP, SmartCI, Alexandria University}{Hybrid}
 \begin{itemize}
     \item Completed structured training in photonics fundamentals, simulation, and mathematical modeling.
-    \item Developed fiber Bragg grating (FBG)-based concepts for multi-parameter respiratory monitoring.
+    \item Developed FBG-based concepts for multi-parameter respiratory monitoring.
     \item Co-authored a funded proposal (USD 15k) supported by Alexandria University Technology Park.
-    \item Built and validated MATLAB-Lumerical models for fiber mode coupling and edge-filter interrogation.
 \end{itemize}
 
 \section*{Selected Research Projects}
-\cventry{Multi-Parameter Respiratory Monitoring via FBG}{2025 -- Ongoing}{Funded Project (AUTP)}{12-month cycle}
+\entry{Multi-Parameter Respiratory Monitoring via FBG}{2025 -- Ongoing}{Funded Project (AUTP)}{12-month cycle}
 \begin{itemize}
     \item Designed a compact sensing workflow for early asthma/COPD exacerbation detection.
     \item Developed analytical models for mode coupling and FBG spectral response.
-    \item Validated performance with Lumerical FDTD/MODE and developed an INTERCONNECT interrogation setup.
+    \item Validated performance using Lumerical FDTD/MODE and INTERCONNECT.
 \end{itemize}
 
-\cventry{PINN Inverse Design for Photonic Quantum Systems}{2025 -- Ongoing}{Collaborative Research}{6-month cycle}
+\entry{PINN Inverse Design for Photonic Quantum Systems}{2025 -- Ongoing}{Collaborative Research}{6-month cycle}
 \begin{itemize}
-    \item Designed and evaluated PINN architectures for inverse design of integrated nonlinear sources.
-    \item Modeled SPDC structures in NbOCl$_{2x}$ waveguides and benchmarked against simulation-driven baselines.
-    \item Integrated large-scale data generation and model validation into a reproducible workflow.
+    \item Designed and benchmarked PINN architectures for inverse design of integrated nonlinear sources.
+    \item Modeled SPDC structures in NbOCl$_{2x}$ waveguides against simulation-driven baselines.
 \end{itemize}
 
 \section*{Publications}
@@ -175,65 +170,31 @@ Integrated photonics; nonlinear and quantum photonics; photonic-electronic co-de
 \subsection*{Manuscripts in Preparation}
 \printbibliography[keyword=inprep,heading=none]
 
-\section*{Professional Training}
-\cventry{Analog and Mixed-Signal Simulation \& Modeling Trainee}{Jul 2025 -- Sep 2025}{Siemens EDA -- EMEA}{Hybrid}
-\begin{itemize}
-    \item Completed 90+ training hours in AMS behavioral modeling and verification.
-    \item Designed an 8$\times$ PLL behavioral model (Verilog-A) with 960 MHz output.
-    \item Achieved 92\% overall performance across labs and technical evaluations.
-\end{itemize}
-
-\cventry{Analog-to-Digital Converter Design \& Verification Trainee}{Feb 2025}{Siemens EDA -- EMEA}{Remote}
-\begin{itemize}
-    \item Designed and verified an 8-bit SAR ADC in single-ended and fully differential variants.
-    \item Achieved 7.8 ENOB, 49.3 dB SNR, and 60.5 dB SFDR using FFT-based analysis.
-\end{itemize}
-
-\cventry{CMOS Analog Integrated Circuit Design Trainee}{Jun 2024 -- Sep 2024}{Information Technology Institute (ITI)}{Remote}
-\begin{itemize}
-    \item Completed 180+ training hours in analog CMOS design and verification.
-    \item Built folded-cascode and two-stage OTA designs with full AC/transient/stability validation.
-\end{itemize}
-
-\section*{Leadership and Service}
-\cventry{Chairman}{Feb 2025 -- Oct 2025}{IEEE SSCS Alexandria University Student Branch Chapter}{Hybrid}
-\begin{itemize}
-    \item Led chapter restructuring and program governance.
-    \item Built 50+ collaborations with student branches, institutions, and industry stakeholders.
-    \item Coordinated 80+ technical events and volunteer teams serving 500+ students.
-\end{itemize}
-
-\cventry{General Coordinator}{Aug 2021 -- Sep 2023}{Education Clinic (USA-Registered NGO)}{Remote}
-\begin{itemize}
-    \item Coordinated 80+ volunteers serving students across the MENA region.
-    \item Directed program execution, outreach sessions, and academic support activities.
-\end{itemize}
-
 \section*{Technical Skills}
-\skillline{Photonics}{Lumerical (FDTD, MODE, INTERCONNECT), COMSOL, Silvaco TCAD}
-\skillline{Scientific Computing}{MATLAB, Python, Octave, PyTorch, TensorFlow}
-\skillline{Analog and Mixed-Signal}{Cadence, LTspice, NGspice, Xschem, Verilog-A/AMS}
-\skillline{Digital and Hardware}{Verilog, VHDL, Vivado, Quartus, QuestaSim, FPGA/CPLD}
-\skillline{Engineering Tools}{Git, Linux, LaTeX, Jupyter, LabVIEW}
+\skill{Photonics}{Lumerical (FDTD, MODE, INTERCONNECT), COMSOL, Silvaco TCAD}
+\skill{Scientific Computing}{MATLAB, Python, Octave, PyTorch, TensorFlow}
+\skill{Analog and Mixed-Signal}{Cadence, LTspice, NGspice, Xschem, Verilog-A/AMS}
+\skill{Digital and Hardware}{Verilog, VHDL, Vivado, Quartus, QuestaSim, FPGA/CPLD}
+\skill{Engineering Tools}{Git, Linux, LaTeX, Jupyter, LabVIEW}
 
-\section*{Awards and Funding}
+\section*{Awards, Leadership, and Service}
 \begin{itemize}
     \item \textbf{Alexandria University Technology Park (AUTP) Research Grant} (2025): USD 15k for photonics-based respiratory monitoring research.
+    \item \textbf{Chairman, IEEE SSCS Alexandria University Student Branch Chapter} (2025): Led chapter governance, programs, and technical events.
     \item \textbf{ICMTC AI Contest (AIC-2), 4th Place} (2024): Ranked 4th among 500 teams.
-    \item \textbf{Huawei ICT Skills Competition, National Finalist (AI Track)} (2023).
-    \item \textbf{NASA Space Apps Challenge, Global Nominee} (2021).
+    \item \textbf{General Coordinator, Education Clinic NGO} (2021 -- 2023): Coordinated volunteer programs serving students across the MENA region.
 \end{itemize}
 
-\section*{Teaching and Mentoring}
-\cventry{Peer Tutor and Mentor}{2025 -- Present}{IEEE SSCS Student Activities}{Hybrid}
+\section*{Professional Training}
 \begin{itemize}
-    \item Delivering structured photonics training with emphasis on simulation and computational workflows.
-    \item Supporting student technical development through guided project execution and mentoring.
+    \item \textbf{AMS Simulation and Modeling, Siemens EDA (2025):} 90+ training hours; 8$\times$ PLL behavioral model; 92\% overall.
+    \item \textbf{ADC Design and Verification, Siemens EDA (2025):} 8-bit SAR ADC implementation with FFT-based performance validation.
+    \item \textbf{CMOS Analog IC Design, ITI (2024):} 180+ training hours with full OTA design and stability validation workflows.
 \end{itemize}
 
-\section*{Professional Memberships and Languages}
-\skillline{Memberships}{IEEE Student Member (ID: 101099759); IEEE SSCS; IEEE Photonics Society}
-\skillline{Languages}{Arabic (native), English (professional working proficiency)}
+\section*{Memberships and Languages}
+\skill{Memberships}{IEEE Student Member (ID: 101099759); IEEE SSCS; IEEE Photonics Society}
+\skill{Languages}{Arabic (native), English (professional working proficiency)}
 
 \section*{References}
 Available upon request.
