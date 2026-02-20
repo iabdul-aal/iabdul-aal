@@ -43,23 +43,17 @@ Open to research collaborations and invited technical talks in integrated and co
 
 ## Featured Repositories
 
-<p align="center">
-  <a href="https://github.com/iabdul-aal/iabdul-aal.github.io">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=iabdul-aal&repo=iabdul-aal.github.io&theme=transparent&hide_border=true" alt="iabdul-aal.github.io" />
-  </a>
-  <a href="https://github.com/iabdul-aal/PD-design-kit">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=iabdul-aal&repo=PD-design-kit&theme=transparent&hide_border=true" alt="PD-design-kit" />
-  </a>
-</p>
+- [**iabdul-aal.github.io**](https://github.com/iabdul-aal/iabdul-aal.github.io) - Personal research website and public profile content.  
+  <img src="https://img.shields.io/github/stars/iabdul-aal/iabdul-aal.github.io?style=flat-square&color=132235" alt="Stars"> <img src="https://img.shields.io/github/last-commit/iabdul-aal/iabdul-aal.github.io?style=flat-square&color=1f6aa5" alt="Last commit">
 
-<p align="center">
-  <a href="https://github.com/iabdul-aal/college_study_materials">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=iabdul-aal&repo=college_study_materials&theme=transparent&hide_border=true" alt="college_study_materials" />
-  </a>
-  <a href="https://github.com/iabdul-aal/finfet_review_article">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=iabdul-aal&repo=finfet_review_article&theme=transparent&hide_border=true" alt="finfet_review_article" />
-  </a>
-</p>
+- [**PD-design-kit**](https://github.com/iabdul-aal/PD-design-kit) - Design and workflow resources for photonics-related development.  
+  <img src="https://img.shields.io/github/stars/iabdul-aal/PD-design-kit?style=flat-square&color=132235" alt="Stars"> <img src="https://img.shields.io/github/last-commit/iabdul-aal/PD-design-kit?style=flat-square&color=1f6aa5" alt="Last commit">
+
+- [**college_study_materials**](https://github.com/iabdul-aal/college_study_materials) - Structured study resources and shared academic materials.  
+  <img src="https://img.shields.io/github/stars/iabdul-aal/college_study_materials?style=flat-square&color=132235" alt="Stars"> <img src="https://img.shields.io/github/last-commit/iabdul-aal/college_study_materials?style=flat-square&color=1f6aa5" alt="Last commit">
+
+- [**finfet_review_article**](https://github.com/iabdul-aal/finfet_review_article) - Review-oriented technical writing repository.  
+  <img src="https://img.shields.io/github/stars/iabdul-aal/finfet_review_article?style=flat-square&color=132235" alt="Stars"> <img src="https://img.shields.io/github/last-commit/iabdul-aal/finfet_review_article?style=flat-square&color=1f6aa5" alt="Last commit">
 
 ## Technical Toolbox
 
@@ -77,6 +71,7 @@ Open to research collaborations and invited technical talks in integrated and co
 ## GitHub Snapshot
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=iabdul-aal&show_icons=true&hide_border=true&theme=transparent&rank_icon=github" alt="GitHub stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=iabdul-aal&layout=compact&hide_border=true&theme=transparent" alt="Top languages" />
+  <a href="https://github.com/iabdul-aal?tab=followers"><img src="https://img.shields.io/github/followers/iabdul-aal?style=for-the-badge&color=1f6aa5" alt="Followers"></a>
+  <img src="https://img.shields.io/badge/Public%20Repos-26-132235?style=for-the-badge" alt="Public repos">
+  <a href="https://github.com/iabdul-aal/college_study_materials"><img src="https://img.shields.io/github/stars/iabdul-aal/college_study_materials?style=for-the-badge&color=1f6aa5&label=Most%20Starred%20Repo" alt="Most starred repo"></a>
 </p>
