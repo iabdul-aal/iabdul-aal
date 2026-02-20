@@ -5,12 +5,12 @@
 <p align="center">Integrated Photonics | Nonlinear Quantum Photonics | Physics-Informed Design</p>
 
 <p align="center">
-  <a href="https://iabdul-aal.github.io"><img src="https://img.shields.io/badge/Website-1F6AA5?style=flat-square" alt="Website"></a>
-  <a href="./cv.pdf"><img src="https://img.shields.io/badge/CV-132235?style=flat-square" alt="CV"></a>
-  <a href="mailto:iabdul-aal@ieee.org"><img src="https://img.shields.io/badge/Email-1F6AA5?style=flat-square" alt="Email"></a>
-  <a href="https://linkedin.com/in/iabdul-aal"><img src="https://img.shields.io/badge/LinkedIn-132235?style=flat-square" alt="LinkedIn"></a>
-  <a href="https://orcid.org/0009-0004-9300-3936"><img src="https://img.shields.io/badge/ORCID-1F6AA5?style=flat-square" alt="ORCID"></a>
-  <a href="https://scholar.google.com/citations?user=CPmqNv4AAAAJ&hl=en"><img src="https://img.shields.io/badge/Scholar-132235?style=flat-square" alt="Scholar"></a>
+  <a href="https://iabdul-aal.github.io"><img src="https://img.shields.io/badge/Website-iabdul--aal.github.io-1F6AA5?style=flat-square&logo=googlechrome&logoColor=white&labelColor=132235" alt="Website"></a>
+  <a href="./cv.pdf"><img src="https://img.shields.io/badge/CV-Professional-132235?style=flat-square&logo=adobeacrobatreader&logoColor=white&labelColor=1F6AA5" alt="CV"></a>
+  <a href="mailto:iabdul-aal@ieee.org"><img src="https://img.shields.io/badge/Email-IEEE-1F6AA5?style=flat-square&logo=gmail&logoColor=white&labelColor=132235" alt="Email"></a>
+  <a href="https://linkedin.com/in/iabdul-aal"><img src="https://img.shields.io/badge/LinkedIn-iabdul--aal-132235?style=flat-square&logo=linkedin&logoColor=white&labelColor=1F6AA5" alt="LinkedIn"></a>
+  <a href="https://orcid.org/0009-0004-9300-3936"><img src="https://img.shields.io/badge/ORCID-0009--0004--9300--3936-1F6AA5?style=flat-square&logo=orcid&logoColor=white&labelColor=132235" alt="ORCID"></a>
+  <a href="https://scholar.google.com/citations?user=CPmqNv4AAAAJ&hl=en"><img src="https://img.shields.io/badge/Scholar-Google-132235?style=flat-square&logo=googlescholar&logoColor=white&labelColor=1F6AA5" alt="Scholar"></a>
 </p>
 
 ---
@@ -36,30 +36,49 @@ This repository is the source used in my GitHub profile summary and includes the
 
 ## Featured Repositories
 
-- [**iabdul-aal.github.io**](https://github.com/iabdul-aal/iabdul-aal.github.io): Personal research website and public profile content.
-- [**PD-design-kit**](https://github.com/iabdul-aal/PD-design-kit): Design and workflow resources for photonics-related development.
-- [**college_study_materials**](https://github.com/iabdul-aal/college_study_materials): Structured study resources and shared academic materials.
-- [**finfet_review_article**](https://github.com/iabdul-aal/finfet_review_article): Review-oriented technical writing repository.
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h3 align="center">NanoPhotoNet-MPM</h3>
+      <p align="center"><strong>Research-Focused Photonics Modeling</strong></p>
+      <p align="center">
+        Simulation-backed workflows for nonlinear and quantum-compatible integrated photonic structures.
+      </p>
+      <p align="center">
+        <img src="https://img.shields.io/badge/Focus-SPDC%20%26%20Quasi--BIC-1F6AA5?style=flat-square&labelColor=132235" alt="Focus">
+        <img src="https://img.shields.io/badge/Method-Physics--Informed%20Inverse%20Design-132235?style=flat-square&labelColor=1F6AA5" alt="Method">
+        <img src="https://img.shields.io/badge/Output-Reproducible%20Simulation%20Pipelines-1F6AA5?style=flat-square&labelColor=132235" alt="Output">
+      </p>
+      <p align="center"><a href="https://github.com/iabdul-aal/NanoPhotoNet-MPM"><strong>Open Research Repo &raquo;</strong></a></p>
+    </td>
+    <td width="50%" valign="top">
+      <h3 align="center">PD-design-kit</h3>
+      <p align="center"><strong>Practical Design Toolkit</strong></p>
+      <p align="center">
+        A reusable project baseline for setup conventions, documentation, and design iteration hygiene.
+      </p>
+      <p align="center">
+        <img src="https://img.shields.io/badge/Includes-Project%20Templates-132235?style=flat-square&labelColor=1F6AA5" alt="Includes">
+        <img src="https://img.shields.io/badge/Supports-Documentation%20Standards-1F6AA5?style=flat-square&labelColor=132235" alt="Supports">
+        <img src="https://img.shields.io/badge/Goal-Faster%20Design%20Cycles-132235?style=flat-square&labelColor=1F6AA5" alt="Goal">
+      </p>
+      <p align="center"><a href="https://github.com/iabdul-aal/PD-design-kit"><strong>Open Toolkit Repo &raquo;</strong></a></p>
+    </td>
+  </tr>
+</table>
 
 ## Technical Toolbox
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Lumerical-FDTD%20%7C%20MODE%20%7C%20INTERCONNECT-1F6AA5?style=flat-square" alt="Lumerical">
-  <img src="https://img.shields.io/badge/COMSOL-Multiphysics-132235?style=flat-square" alt="COMSOL">
-  <img src="https://img.shields.io/badge/MATLAB-Scientific%20Computing-1F6AA5?style=flat-square" alt="MATLAB">
-  <img src="https://img.shields.io/badge/Python-Research%20Workflows-132235?style=flat-square" alt="Python">
-  <img src="https://img.shields.io/badge/PyTorch-ML%20for%20Design-1F6AA5?style=flat-square" alt="PyTorch">
-  <img src="https://img.shields.io/badge/Cadence-Analog%20IC-132235?style=flat-square" alt="Cadence">
-  <img src="https://img.shields.io/badge/Verilog--A%2FAMS-Mixed%20Signal-1F6AA5?style=flat-square" alt="Verilog-A/AMS">
-  <img src="https://img.shields.io/badge/Toolchain-Git%20%7C%20Linux%20%7C%20LaTeX-132235?style=flat-square" alt="Toolchain">
+  <img src="https://img.shields.io/badge/Photonics-Lumerical%20(FDTD%20%7C%20MODE%20%7C%20INTERCONNECT)-1F6AA5?style=flat-square&labelColor=132235" alt="Lumerical">
+  <img src="https://img.shields.io/badge/Simulation-COMSOL%20Multiphysics-132235?style=flat-square&labelColor=1F6AA5" alt="COMSOL">
+  <img src="https://img.shields.io/badge/Compute-MATLAB%20%7C%20Python-1F6AA5?style=flat-square&labelColor=132235" alt="Compute">
 </p>
-
-## Key Links
-
-- Website: [iabdul-aal.github.io](https://iabdul-aal.github.io)
-- CV: [cv.pdf](./cv.pdf)
-- Preprint: [arXiv:2510.00357](https://arxiv.org/abs/2510.00357)
-- Publications metadata: [`publications.bib`](publications.bib)
+<p align="center">
+  <img src="https://img.shields.io/badge/ML-PyTorch%20for%20Inverse%20Design-132235?style=flat-square&labelColor=1F6AA5" alt="PyTorch">
+  <img src="https://img.shields.io/badge/Analog%2FMixed--Signal-Cadence%20%7C%20Verilog--A%2FAMS-1F6AA5?style=flat-square&labelColor=132235" alt="Analog and mixed signal">
+  <img src="https://img.shields.io/badge/Toolchain-Git%20%7C%20Linux%20%7C%20LaTeX-132235?style=flat-square&labelColor=1F6AA5" alt="Toolchain">
+</p>
 
 ## Collaboration
 
