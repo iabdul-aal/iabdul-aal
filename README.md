@@ -31,11 +31,25 @@ I work on simulation-driven integrated photonics research with emphasis on nonli
 - Founder and technical lead across student engineering initiatives
 - Active in public technical writing and student-focused talks
 
-## Selected Work
+## Featured Repositories
 
-- Preprint: [Terahertz Quasi-BIC Metasurfaces for Ultra-Sensitive Biosensing and High-Speed Wireless Communications](https://arxiv.org/abs/2510.00357)
-- CV: [cv.pdf](./cv.pdf)
-- Publications source: [`temp/publications.bib`](temp/publications.bib)
+<p align="center">
+  <a href="https://github.com/iabdul-aal/iabdul-aal.github.io">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=iabdul-aal&repo=iabdul-aal.github.io&theme=transparent&hide_border=true" alt="iabdul-aal.github.io" />
+  </a>
+  <a href="https://github.com/iabdul-aal/PD-design-kit">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=iabdul-aal&repo=PD-design-kit&theme=transparent&hide_border=true" alt="PD-design-kit" />
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://github.com/iabdul-aal/college_study_materials">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=iabdul-aal&repo=college_study_materials&theme=transparent&hide_border=true" alt="college_study_materials" />
+  </a>
+  <a href="https://github.com/iabdul-aal/finfet_review_article">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=iabdul-aal&repo=finfet_review_article&theme=transparent&hide_border=true" alt="finfet_review_article" />
+  </a>
+</p>
 
 ## Technical Toolbox
 
@@ -47,7 +61,7 @@ I work on simulation-driven integrated photonics research with emphasis on nonli
   <img src="https://img.shields.io/badge/PyTorch-ML%20for%20Design-1f6aa5?style=flat-square&logo=pytorch&logoColor=white" alt="PyTorch">
   <img src="https://img.shields.io/badge/Cadence-Analog%20IC-132235?style=flat-square" alt="Cadence">
   <img src="https://img.shields.io/badge/Verilog--A%2FAMS-Mixed%20Signal-1f6aa5?style=flat-square" alt="Verilog-A/AMS">
-  <img src="https://img.shields.io/badge/Git-Linux-LaTeX-132235?style=flat-square&logo=git&logoColor=white" alt="Git Linux LaTeX">
+  <img src="https://img.shields.io/badge/Toolchain-Git%20%7C%20Linux%20%7C%20LaTeX-132235?style=flat-square&logo=git&logoColor=white" alt="Git Linux LaTeX">
 </div>
 
 ---
