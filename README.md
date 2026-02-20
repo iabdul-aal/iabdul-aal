@@ -19,41 +19,81 @@
 
 This repository is my GitHub profile summary source and stores the CV assets used across GitHub and my website.
 
-## Tech Stack
+## Current Focus
 
-### Photonics & Simulation
-![Lumerical](https://img.shields.io/badge/Lumerical-FDTD%20%7C%20MODE%20%7C%20INTERCONNECT-0078D4?style=for-the-badge)
-![COMSOL](https://img.shields.io/badge/COMSOL-Multiphysics-1F2937?style=for-the-badge)
-![Silvaco](https://img.shields.io/badge/Silvaco-TCAD-00599C?style=for-the-badge)
-![MATLAB](https://img.shields.io/badge/MATLAB-Scientific%20Computing-D14836?style=for-the-badge&logo=Mathworks&logoColor=white)
+- Integrated photonics and photonic-electronic co-design
+- Nonlinear and quantum-compatible photonic device concepts
+- Physics-informed machine learning for inverse design
+- Reproducible simulation workflows for research execution
 
-### Scientific & ML
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=ffdd54)
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
-![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
+<div align="center">
+  <h2>Tech Stack</h2>
+</div>
 
-### Circuit & Mixed-Signal
-![Cadence](https://img.shields.io/badge/Cadence-Analog%20IC-6B7280?style=for-the-badge)
-![Verilog-A/AMS](https://img.shields.io/badge/Verilog--A%2FAMS-Mixed%20Signal-0F172A?style=for-the-badge)
+<div align="center">
+  <h3>Photonics &amp; Simulation</h3>
+  <p>
+    <img src="https://img.shields.io/badge/Lumerical-FDTD%20%7C%20MODE%20%7C%20INTERCONNECT-0078D4?style=for-the-badge" alt="Lumerical" />
+    <img src="https://img.shields.io/badge/COMSOL-Multiphysics-1F2937?style=for-the-badge" alt="COMSOL" />
+    <img src="https://img.shields.io/badge/Silvaco-TCAD-00599C?style=for-the-badge" alt="Silvaco" />
+    <img src="https://img.shields.io/badge/MATLAB-Scientific%20Computing-D14836?style=for-the-badge&logo=Mathworks&logoColor=white" alt="MATLAB" />
+  </p>
+</div>
 
-### Workflow
-![Git](https://img.shields.io/badge/Git-F05033?style=for-the-badge&logo=git&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
-![LaTeX](https://img.shields.io/badge/LaTeX-008080?style=for-the-badge&logo=latex&logoColor=white)
+<div align="center">
+  <h3>Scientific &amp; ML</h3>
+  <p>
+    <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=ffdd54" alt="Python" />
+    <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" alt="PyTorch" />
+    <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white" alt="TensorFlow" />
+    <img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white" alt="NumPy" />
+  </p>
+</div>
+
+<div align="center">
+  <h3>Circuit &amp; Mixed-Signal</h3>
+  <p>
+    <img src="https://img.shields.io/badge/Cadence-Analog%20IC-6B7280?style=for-the-badge" alt="Cadence" />
+    <img src="https://img.shields.io/badge/Verilog--A%2FAMS-Mixed%20Signal-0F172A?style=for-the-badge" alt="Verilog-A/AMS" />
+  </p>
+</div>
+
+<div align="center">
+  <h3>Workflow</h3>
+  <p>
+    <img src="https://img.shields.io/badge/Git-F05033?style=for-the-badge&logo=git&logoColor=white" alt="Git" />
+    <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" alt="Linux" />
+    <img src="https://img.shields.io/badge/LaTeX-008080?style=for-the-badge&logo=latex&logoColor=white" alt="LaTeX" />
+  </p>
+</div>
 
 ## GitHub Stats
 
 <div align="center">
   <img src="https://streak-stats.demolab.com?user=iabdul-aal&theme=github-dark-blue&hide_border=false" alt="Streak Stats" />
-  <br/>
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=iabdul-aal&theme=github_dark" alt="Top Languages" />
 </div>
 
 ## Featured Work
 
-- **NanoPhotoNet-MPM**: Photonics modeling and inverse-design workflow *(public release in progress)*.
-- [**PD-design-kit**](https://github.com/iabdul-aal/PD-design-kit): Reusable photonics project structure and documentation workflow.
+### 🔹 NanoPhotoNet-MPM | *Integrated Photonics Research Workflow*
+
+Simulation-driven modeling and physics-informed inverse design pipeline for nonlinear and quantum-compatible integrated photonic structures.
+
+![Lumerical](https://img.shields.io/badge/Lumerical-FDTD%20%7C%20MODE-0078D4?style=flat-square)
+![PINNs](https://img.shields.io/badge/PINNs-Physics--Informed-1F2937?style=flat-square)
+![Python](https://img.shields.io/badge/Python-Research%20Pipeline-3776AB?style=flat-square)
+
+*Repository visibility: public release in progress.*
+
+### 🔹 PD-design-kit | *Reusable Photonics Design Toolkit*
+
+Project scaffold for photonics work with structured setup, documentation standards, and reproducible engineering workflow practices.
+
+![Templates](https://img.shields.io/badge/Templates-Project%20Scaffold-2563EB?style=flat-square)
+![Workflow](https://img.shields.io/badge/Workflow-Reproducible-0F172A?style=flat-square)
+![Tooling](https://img.shields.io/badge/Tooling-Git%20%7C%20LaTeX-F05033?style=flat-square)
+
+[**View Repository »**](https://github.com/iabdul-aal/PD-design-kit)
 
 ## Collaboration
 
