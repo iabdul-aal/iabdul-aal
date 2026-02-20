@@ -1,17 +1,16 @@
 <h1 align="center">Islam I. Abdulaal</h1>
 
-<p align="center">
-  <strong>Photonics Postgraduate Student</strong><br/>
-  Integrated Quantum Photonics | Nonlinear Quantum Photonics | Physics-Informed Design
-</p>
+<p align="center"><strong>Photonics Postgraduate Student</strong></p>
+
+<p align="center">Integrated Photonics | Nonlinear Quantum Photonics | Physics-Informed Design</p>
 
 <p align="center">
-  <a href="https://iabdul-aal.github.io">Website</a> |
-  <a href="./cv.pdf">CV</a> |
-  <a href="mailto:iabdul-aal@ieee.org">Email</a> |
-  <a href="https://linkedin.com/in/iabdul-aal">LinkedIn</a> |
-  <a href="https://orcid.org/0009-0004-9300-3936">ORCID</a> |
-  <a href="https://scholar.google.com/citations?user=CPmqNv4AAAAJ&hl=en">Google Scholar</a>
+  <a href="https://iabdul-aal.github.io"><img src="https://img.shields.io/badge/Website-1F6AA5?style=flat-square" alt="Website"></a>
+  <a href="./cv.pdf"><img src="https://img.shields.io/badge/CV-132235?style=flat-square" alt="CV"></a>
+  <a href="mailto:iabdul-aal@ieee.org"><img src="https://img.shields.io/badge/Email-1F6AA5?style=flat-square" alt="Email"></a>
+  <a href="https://linkedin.com/in/iabdul-aal"><img src="https://img.shields.io/badge/LinkedIn-132235?style=flat-square" alt="LinkedIn"></a>
+  <a href="https://orcid.org/0009-0004-9300-3936"><img src="https://img.shields.io/badge/ORCID-1F6AA5?style=flat-square" alt="ORCID"></a>
+  <a href="https://scholar.google.com/citations?user=CPmqNv4AAAAJ&hl=en"><img src="https://img.shields.io/badge/Scholar-132235?style=flat-square" alt="Scholar"></a>
 </p>
 
 ---
@@ -44,22 +43,24 @@ This repository is the source used in my GitHub profile summary and includes the
 
 ## Technical Toolbox
 
-- **Photonics:** Lumerical (FDTD, MODE, INTERCONNECT), COMSOL, Silvaco TCAD
-- **Scientific Computing:** MATLAB, Python, PyTorch, TensorFlow
-- **Analog and Mixed-Signal:** Cadence, Verilog-A/AMS, LTspice
-- **Toolchain:** Git, Linux, LaTeX, Jupyter
+<p align="center">
+  <img src="https://img.shields.io/badge/Lumerical-FDTD%20%7C%20MODE%20%7C%20INTERCONNECT-1F6AA5?style=flat-square" alt="Lumerical">
+  <img src="https://img.shields.io/badge/COMSOL-Multiphysics-132235?style=flat-square" alt="COMSOL">
+  <img src="https://img.shields.io/badge/MATLAB-Scientific%20Computing-1F6AA5?style=flat-square" alt="MATLAB">
+  <img src="https://img.shields.io/badge/Python-Research%20Workflows-132235?style=flat-square" alt="Python">
+  <img src="https://img.shields.io/badge/PyTorch-ML%20for%20Design-1F6AA5?style=flat-square" alt="PyTorch">
+  <img src="https://img.shields.io/badge/Cadence-Analog%20IC-132235?style=flat-square" alt="Cadence">
+  <img src="https://img.shields.io/badge/Verilog--A%2FAMS-Mixed%20Signal-1F6AA5?style=flat-square" alt="Verilog-A/AMS">
+  <img src="https://img.shields.io/badge/Toolchain-Git%20%7C%20Linux%20%7C%20LaTeX-132235?style=flat-square" alt="Toolchain">
+</p>
 
 ## Key Links
 
-<p align="center">
-  <a href="https://iabdul-aal.github.io">Website</a> |
-  <a href="./cv.pdf">CV</a> |
-  <a href="https://arxiv.org/abs/2510.00357">Preprint</a> |
-  <a href="temp/publications.bib"><code>temp/publications.bib</code></a>
-</p>
+- Website: [iabdul-aal.github.io](https://iabdul-aal.github.io)
+- CV: [cv.pdf](./cv.pdf)
+- Preprint: [arXiv:2510.00357](https://arxiv.org/abs/2510.00357)
+- Publications metadata: [`publications.bib`](publications.bib)
 
 ## Collaboration
 
 Open to research collaborations and invited technical talks in integrated and computational photonics.
-
-

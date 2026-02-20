@@ -1,13 +1,13 @@
 # LaTeX intermediate artifacts
-temp/*.aux
-temp/*.bbl
-temp/*.bcf
-temp/*.blg
-temp/*.fdb_latexmk
-temp/*.fls
-temp/*.log
-temp/*.out
-temp/*.run.xml
-temp/*.synctex.gz
-temp/*-SAVE-ERROR
-temp/*.pdf
+*.aux
+*.bbl
+*.bcf
+*.blg
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.run.xml
+*.synctex.gz
+*-SAVE-ERROR
+main.pdf
