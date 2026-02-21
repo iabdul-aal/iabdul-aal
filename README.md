@@ -14,7 +14,14 @@
 </div>
 
 ## About Me
-This repository is my GitHub profile summary source and stores the CV assets used across GitHub and my website.
+
+Photonics postgraduate student focused on integrated photonics, nonlinear and quantum-compatible device concepts, and physics-informed inverse design.
+
+This repository is the source of my GitHub profile summary and shared professional assets used across GitHub and my website.
+
+- Clear snapshot of my current research direction
+- Professional CV (`cv.pdf`) for applications and outreach
+- Featured repositories that reflect my active technical work
 
 ## Current Focus
 
@@ -30,27 +37,27 @@ This repository is my GitHub profile summary source and stores the CV assets use
 <div align="center">
   <h3>Photonics &amp; Simulation</h3>
   <p>
-    <img src="https://img.shields.io/badge/Lumerical-6B7280?style=for-the-badge" alt="Lumerical" />
+    <img src="https://img.shields.io/badge/Lumerical-374151?style=for-the-badge" alt="Lumerical" />
     <img src="https://img.shields.io/badge/COMSOL-1F2937?style=for-the-badge" alt="COMSOL" />
-    <img src="https://img.shields.io/badge/TCAD-00599C?style=for-the-badge" alt="TCAD" />
-    <img src="https://img.shields.io/badge/MATLAB-D14836?style=for-the-badge&logo=Mathworks&logoColor=white" alt="MATLAB" />
+    <img src="https://img.shields.io/badge/TCAD-2563EB?style=for-the-badge" alt="TCAD" />
+    <img src="https://img.shields.io/badge/MATLAB-1D4ED8?style=for-the-badge&logo=Mathworks&logoColor=white" alt="MATLAB" />
   </p>
 </div>
 
 <div align="center">
   <h3>Scientific &amp; ML</h3>
   <p>
-    <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=ffdd54" alt="Python" />
-    <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" alt="PyTorch" />
+    <img src="https://img.shields.io/badge/Python-2563EB?style=for-the-badge&logo=python&logoColor=ffdd54" alt="Python" />
+    <img src="https://img.shields.io/badge/PyTorch-1E3A8A?style=for-the-badge&logo=pytorch&logoColor=white" alt="PyTorch" />
   </p>
 </div>
 
 <div align="center">
   <h3>Workflow</h3>
   <p>
-    <img src="https://img.shields.io/badge/Git-F05033?style=for-the-badge&logo=git&logoColor=white" alt="Git" />
-    <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" alt="Linux" />
-    <img src="https://img.shields.io/badge/LaTeX-008080?style=for-the-badge&logo=latex&logoColor=white" alt="LaTeX" />
+    <img src="https://img.shields.io/badge/Git-334155?style=for-the-badge&logo=git&logoColor=white" alt="Git" />
+    <img src="https://img.shields.io/badge/Linux-0F172A?style=for-the-badge&logo=linux&logoColor=white" alt="Linux" />
+    <img src="https://img.shields.io/badge/LaTeX-1D4ED8?style=for-the-badge&logo=latex&logoColor=white" alt="LaTeX" />
   </p>
 </div>
 
@@ -69,9 +76,9 @@ This repository is my GitHub profile summary source and stores the CV assets use
       <p><strong>Integrated Photonics Research Workflow</strong></p>
       <p>Simulation-driven modeling and physics-informed inverse design pipeline for nonlinear and quantum-compatible integrated photonic structures.</p>
       <p>
-        <img src="https://img.shields.io/badge/Lumerical-FDTD%20%7C%20MODE%20%7C%20DEVICE-0078D4?style=flat-square" alt="Lumerical" />
+        <img src="https://img.shields.io/badge/Lumerical-FDTD-2563EB?style=flat-square" alt="Lumerical" />
         <img src="https://img.shields.io/badge/PINNs-Physics--Informed-1F2937?style=flat-square" alt="PINNs" />
-        <img src="https://img.shields.io/badge/Python-Research%20Pipeline-3776AB?style=flat-square" alt="Python" />
+        <img src="https://img.shields.io/badge/Python-Research%20Pipeline-1D4ED8?style=flat-square" alt="Python" />
       </p>
       <p><em>Repository visibility: public release in progress.</em></p>
       <hr />
@@ -83,7 +90,7 @@ This repository is my GitHub profile summary source and stores the CV assets use
       <p>
         <img src="https://img.shields.io/badge/Templates-Project%20Scaffold-2563EB?style=flat-square" alt="Templates" />
         <img src="https://img.shields.io/badge/Workflow-Reproducible-0F172A?style=flat-square" alt="Workflow" />
-        <img src="https://img.shields.io/badge/Tooling-Git%20%7C%20LaTeX-F05033?style=flat-square" alt="Tooling" />
+        <img src="https://img.shields.io/badge/Tooling-Git%20%7C%20LaTeX-1E3A8A?style=flat-square" alt="Tooling" />
       </p>
       <p><a href="https://github.com/iabdul-aal/PD-design-kit"><strong>View Repository »</strong></a></p>
       <hr />
