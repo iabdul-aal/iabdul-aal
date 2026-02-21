@@ -14,9 +14,6 @@
 </div>
 
 ## About Me
-
-**Photonics postgraduate student** focused on **integrated photonics**, **nonlinear/quantum photonic structures**, and **physics-informed inverse design**.
-
 This repository is my GitHub profile summary source and stores the CV assets used across GitHub and my website.
 
 ## Current Focus
