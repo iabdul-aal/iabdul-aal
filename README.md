@@ -17,11 +17,6 @@
 
 Photonics postgraduate student focused on integrated photonics, nonlinear and quantum-compatible device concepts, and physics-informed inverse design.
 
-This repository is the source of my GitHub profile summary and shared professional assets used across GitHub and my website.
-
-- Clear snapshot of my current research direction
-- Professional CV (`cv.pdf`) for applications and outreach
-- Featured repositories that reflect my active technical work
 
 ## Current Focus
 
