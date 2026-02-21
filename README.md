@@ -96,6 +96,7 @@ This repository is my GitHub profile summary source and stores the CV assets use
         <img src="https://img.shields.io/badge/Tooling-Git%20%7C%20LaTeX-F05033?style=flat-square" alt="Tooling" />
       </p>
       <p><a href="https://github.com/iabdul-aal/PD-design-kit"><strong>View Repository »</strong></a></p>
+      <hr />
     </td>
   </tr>
 </table>
