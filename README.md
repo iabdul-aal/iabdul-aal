@@ -30,7 +30,7 @@ This repository is my GitHub profile summary source and stores the CV assets use
 <div align="center">
   <h3>Photonics &amp; Simulation</h3>
   <p>
-    <img src="https://img.shields.io/badge/Lumerical-FDTD%20%7C%20MODE%20%7C%20INTERCONNECT-0078D4?style=for-the-badge" alt="Lumerical" />
+    <img src="https://img.shields.io/badge/Lumerical-FDTD%20%7C%20MODE%20%7C%20INTERCONNECT%20%7C%20DEVICE-0078D4?style=for-the-badge" alt="Lumerical" />
     <img src="https://img.shields.io/badge/COMSOL-Multiphysics-1F2937?style=for-the-badge" alt="COMSOL" />
     <img src="https://img.shields.io/badge/Silvaco-TCAD-00599C?style=for-the-badge" alt="Silvaco" />
     <img src="https://img.shields.io/badge/MATLAB-Scientific%20Computing-D14836?style=for-the-badge&logo=Mathworks&logoColor=white" alt="MATLAB" />
@@ -72,25 +72,32 @@ This repository is my GitHub profile summary source and stores the CV assets use
 
 ## Featured Work
 
-### 🔹 NanoPhotoNet-MPM | *Integrated Photonics Research Workflow*
-
-Simulation-driven modeling and physics-informed inverse design pipeline for nonlinear and quantum-compatible integrated photonic structures.
-
-![Lumerical](https://img.shields.io/badge/Lumerical-FDTD%20%7C%20MODE-0078D4?style=flat-square)
-![PINNs](https://img.shields.io/badge/PINNs-Physics--Informed-1F2937?style=flat-square)
-![Python](https://img.shields.io/badge/Python-Research%20Pipeline-3776AB?style=flat-square)
-
-*Repository visibility: public release in progress.*
-
-### 🔹 PD-design-kit | *Reusable Photonics Design Toolkit*
-
-Project scaffold for photonics work with structured setup, documentation standards, and reproducible engineering workflow practices.
-
-![Templates](https://img.shields.io/badge/Templates-Project%20Scaffold-2563EB?style=flat-square)
-![Workflow](https://img.shields.io/badge/Workflow-Reproducible-0F172A?style=flat-square)
-![Tooling](https://img.shields.io/badge/Tooling-Git%20%7C%20LaTeX-F05033?style=flat-square)
-
-[**View Repository »**](https://github.com/iabdul-aal/PD-design-kit)
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>NanoPhotoNet-MPM</h3>
+      <p><strong>Integrated Photonics Research Workflow</strong></p>
+      <p>Simulation-driven modeling and physics-informed inverse design pipeline for nonlinear and quantum-compatible integrated photonic structures.</p>
+      <p>
+        <img src="https://img.shields.io/badge/Lumerical-FDTD%20%7C%20MODE%20%7C%20DEVICE-0078D4?style=flat-square" alt="Lumerical" />
+        <img src="https://img.shields.io/badge/PINNs-Physics--Informed-1F2937?style=flat-square" alt="PINNs" />
+        <img src="https://img.shields.io/badge/Python-Research%20Pipeline-3776AB?style=flat-square" alt="Python" />
+      </p>
+      <p><em>Repository visibility: public release in progress.</em></p>
+    </td>
+    <td width="50%" valign="top">
+      <h3>PD-design-kit</h3>
+      <p><strong>Reusable Photonics Design Toolkit</strong></p>
+      <p>Project scaffold for photonics work with structured setup, documentation standards, and reproducible engineering workflow practices.</p>
+      <p>
+        <img src="https://img.shields.io/badge/Templates-Project%20Scaffold-2563EB?style=flat-square" alt="Templates" />
+        <img src="https://img.shields.io/badge/Workflow-Reproducible-0F172A?style=flat-square" alt="Workflow" />
+        <img src="https://img.shields.io/badge/Tooling-Git%20%7C%20LaTeX-F05033?style=flat-square" alt="Tooling" />
+      </p>
+      <p><a href="https://github.com/iabdul-aal/PD-design-kit"><strong>View Repository »</strong></a></p>
+    </td>
+  </tr>
+</table>
 
 ## Collaboration
 
