@@ -30,10 +30,10 @@ This repository is my GitHub profile summary source and stores the CV assets use
 <div align="center">
   <h3>Photonics &amp; Simulation</h3>
   <p>
-    <img src="https://img.shields.io/badge/Lumerical-FDTD%20%7C%20MODE%20%7C%20INTERCONNECT%20%7C%20DEVICE-0078D4?style=for-the-badge" alt="Lumerical" />
-    <img src="https://img.shields.io/badge/COMSOL-Multiphysics-1F2937?style=for-the-badge" alt="COMSOL" />
-    <img src="https://img.shields.io/badge/Silvaco-TCAD-00599C?style=for-the-badge" alt="Silvaco" />
-    <img src="https://img.shields.io/badge/MATLAB-Scientific%20Computing-D14836?style=for-the-badge&logo=Mathworks&logoColor=white" alt="MATLAB" />
+    <img src="https://img.shields.io/badge/Lumerical-6B7280?style=for-the-badge" alt="Lumerical" />
+    <img src="https://img.shields.io/badge/COMSOL-1F2937?style=for-the-badge" alt="COMSOL" />
+    <img src="https://img.shields.io/badge/TCAD-00599C?style=for-the-badge" alt="TCAD" />
+    <img src="https://img.shields.io/badge/MATLAB-D14836?style=for-the-badge&logo=Mathworks&logoColor=white" alt="MATLAB" />
   </p>
 </div>
 
@@ -44,14 +44,6 @@ This repository is my GitHub profile summary source and stores the CV assets use
     <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" alt="PyTorch" />
     <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white" alt="TensorFlow" />
     <img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white" alt="NumPy" />
-  </p>
-</div>
-
-<div align="center">
-  <h3>Circuit &amp; Mixed-Signal</h3>
-  <p>
-    <img src="https://img.shields.io/badge/Cadence-Analog%20IC-6B7280?style=for-the-badge" alt="Cadence" />
-    <img src="https://img.shields.io/badge/Verilog--A%2FAMS-Mixed%20Signal-0F172A?style=for-the-badge" alt="Verilog-A/AMS" />
   </p>
 </div>
 
