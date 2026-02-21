@@ -84,6 +84,7 @@ This repository is my GitHub profile summary source and stores the CV assets use
         <img src="https://img.shields.io/badge/Python-Research%20Pipeline-3776AB?style=flat-square" alt="Python" />
       </p>
       <p><em>Repository visibility: public release in progress.</em></p>
+      <hr />
     </td>
     <td width="50%" valign="top">
       <h3>PD-design-kit</h3>
